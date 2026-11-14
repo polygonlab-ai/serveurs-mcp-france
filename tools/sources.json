@@ -1,0 +1,14 @@
+{
+    "mode": "collecte",
+    "mots_interdits": true,
+    "source": "Registre MCP officiel, registry.modelcontextprotocol.io",
+    "page": "https://registry.modelcontextprotocol.io",
+    "registre": "https://registry.modelcontextprotocol.io/v0/servers",
+    "par_page": 100,
+    "pages_max": 2000,
+    "pause_s": 1,
+    "essais": 3,
+    "delai_s": 60,
+    "taille_max_page": 10000000,
+    "duree_max_s": 2400
+}

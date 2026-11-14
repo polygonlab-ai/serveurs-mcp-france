@@ -1,0 +1,230 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/polygonlab-ai/serveurs-mcp-france/main/schema/serveurs.schema.json",
+    "title": "Serveurs MCP liés à la France",
+    "description": "Liste des serveurs MCP du registre officiel liés à la France, telle que copiée dans data/serveurs.json.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "source",
+        "page",
+        "date_source",
+        "nombre",
+        "nombres",
+        "serveurs"
+    ],
+    "properties": {
+        "source": {
+            "description": "Producteur des données.",
+            "type": "string",
+            "minLength": 1
+        },
+        "page": {
+            "description": "Page du registre MCP officiel.",
+            "type": "string",
+            "pattern": "^https://"
+        },
+        "date_source": {
+            "description": "Date de la collecte (AAAA-MM-JJ, heure de Paris). Null tant qu'aucune collecte n'a été faite.",
+            "type": [
+                "string",
+                "null"
+            ],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "nombre": {
+            "description": "Nombre total de serveurs.",
+            "type": "integer",
+            "minimum": 0
+        },
+        "nombres": {
+            "description": "Nombre de serveurs par catégorie.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "entreprises_registres",
+                "emploi_social",
+                "sante",
+                "juridique_administration",
+                "fiscalite_facturation",
+                "transport_mobilite",
+                "geographie_territoire",
+                "donnees_publiques",
+                "commerce_paiement",
+                "autre"
+            ],
+            "properties": {
+                "entreprises_registres": {
+                    "$ref": "#/definitions/compte"
+                },
+                "emploi_social": {
+                    "$ref": "#/definitions/compte"
+                },
+                "sante": {
+                    "$ref": "#/definitions/compte"
+                },
+                "juridique_administration": {
+                    "$ref": "#/definitions/compte"
+                },
+                "fiscalite_facturation": {
+                    "$ref": "#/definitions/compte"
+                },
+                "transport_mobilite": {
+                    "$ref": "#/definitions/compte"
+                },
+                "geographie_territoire": {
+                    "$ref": "#/definitions/compte"
+                },
+                "donnees_publiques": {
+                    "$ref": "#/definitions/compte"
+                },
+                "commerce_paiement": {
+                    "$ref": "#/definitions/compte"
+                },
+                "autre": {
+                    "$ref": "#/definitions/compte"
+                }
+            }
+        },
+        "serveurs": {
+            "description": "Serveurs, triés par nom. Aucune adresse e-mail : une adresse trouvée dans une description y est remplacée par « [adresse retirée] ».",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/serveur"
+            }
+        }
+    },
+    "definitions": {
+        "compte": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "texte": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "minLength": 1
+        },
+        "jour": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "serveur": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "nom",
+                "titre",
+                "description",
+                "version",
+                "categorie",
+                "depot",
+                "site",
+                "distant",
+                "paquets",
+                "publie_le",
+                "mis_a_jour_le"
+            ],
+            "properties": {
+                "nom": {
+                    "description": "Nom du serveur dans le registre (unique), par exemple « io.github.exemple/serveur-mcp ».",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "titre": {
+                    "description": "Titre lisible donné par l'éditeur, ou null.",
+                    "$ref": "#/definitions/texte"
+                },
+                "description": {
+                    "description": "Description donnée par l'éditeur, ou null.",
+                    "$ref": "#/definitions/texte"
+                },
+                "version": {
+                    "description": "Dernière version publiée dans le registre.",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "categorie": {
+                    "description": "Catégorie attribuée par mots-clés (tools/categories.json).",
+                    "type": "string",
+                    "enum": [
+                        "entreprises_registres",
+                        "emploi_social",
+                        "sante",
+                        "juridique_administration",
+                        "fiscalite_facturation",
+                        "transport_mobilite",
+                        "geographie_territoire",
+                        "donnees_publiques",
+                        "commerce_paiement",
+                        "autre"
+                    ]
+                },
+                "depot": {
+                    "description": "Adresse du dépôt de code source déclarée dans le registre, ou null.",
+                    "$ref": "#/definitions/texte"
+                },
+                "site": {
+                    "description": "Site web déclaré dans le registre, ou null.",
+                    "$ref": "#/definitions/texte"
+                },
+                "distant": {
+                    "description": "Points d'accès distants (remotes) : type de transport et adresse. Liste vide si le serveur ne s'utilise qu'en local.",
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": [
+                            "type",
+                            "url"
+                        ],
+                        "properties": {
+                            "type": {
+                                "type": "string",
+                                "minLength": 1
+                            },
+                            "url": {
+                                "type": "string",
+                                "minLength": 1
+                            }
+                        }
+                    }
+                },
+                "paquets": {
+                    "description": "Paquets d'installation (packages) : registre de paquets et identifiant. Liste vide si aucun.",
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": [
+                            "registre",
+                            "identifiant"
+                        ],
+                        "properties": {
+                            "registre": {
+                                "type": "string",
+                                "minLength": 1
+                            },
+                            "identifiant": {
+                                "type": "string",
+                                "minLength": 1
+                            }
+                        }
+                    }
+                },
+                "publie_le": {
+                    "description": "Date de première publication dans le registre (AAAA-MM-JJ, heure de Paris), ou null.",
+                    "$ref": "#/definitions/jour"
+                },
+                "mis_a_jour_le": {
+                    "description": "Date de la dernière mise à jour dans le registre (AAAA-MM-JJ, heure de Paris), ou null.",
+                    "$ref": "#/definitions/jour"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,358 @@
+﻿date;evenement;nom;categorie;detail
+2026-11-14;entree;ai.mysiren/siren;entreprises_registres;Entreprises et registres
+2026-11-14;entree;ai.profils/registry;entreprises_registres;Entreprises et registres
+2026-11-14;entree;app.getandiamo/andiamo;transport_mobilite;Transport et mobilité
+2026-11-14;entree;app.immoapi/immoapi;donnees_publiques;Données publiques
+2026-11-14;entree;app.morya/morya;commerce_paiement;Commerce et paiement
+2026-11-14;entree;app.railway.up.api-production-24833/verif-entreprise-fr;entreprises_registres;Entreprises et registres
+2026-11-14;entree;app.trustydata/trustydata;entreprises_registres;Entreprises et registres
+2026-11-14;entree;app.wishpool/france-logistics-mcp;transport_mobilite;Transport et mobilité
+2026-11-14;entree;app.wishpool/france-payments-mcp;geographie_territoire;Géographie et territoire
+2026-11-14;entree;be.art-deco-belgique/art-deco-belgique;autre;Autre
+2026-11-14;entree;bzh.mana/mana;autre;Autre
+2026-11-14;entree;ca.agenceelan/revoir;autre;Autre
+2026-11-14;entree;ch.geneversleep/events;autre;Autre
+2026-11-14;entree;co.nautilinks/nautilinks-mcp;autre;Autre
+2026-11-14;entree;com.304notfound/304notmodified;entreprises_registres;Entreprises et registres
+2026-11-14;entree;com.a2awire/data-cert-fr-advisory-national-cert-alert;autre;Autre
+2026-11-14;entree;com.actualgroup/jobs;emploi_social;Emploi et social
+2026-11-14;entree;com.adminlanding/french-rental-compliance;emploi_social;Emploi et social
+2026-11-14;entree;com.agenttoolworks/verifydesk;entreprises_registres;Entreprises et registres
+2026-11-14;entree;com.agoraverify/agora-omega;autre;Autre
+2026-11-14;entree;com.altoviz/mcp;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;com.anglinglines/angling-lines;commerce_paiement;Commerce et paiement
+2026-11-14;entree;com.api-cinema/showtimes;autre;Autre
+2026-11-14;entree;com.apprendre-les-echecs-24h/catalogue-echecs-fr;commerce_paiement;Commerce et paiement
+2026-11-14;entree;com.arnakoff/api;entreprises_registres;Entreprises et registres
+2026-11-14;entree;com.brm-chronographes/configurator;commerce_paiement;Commerce et paiement
+2026-11-14;entree;com.callejear/france;geographie_territoire;Géographie et territoire
+2026-11-14;entree;com.casaprivat/casaprivat;autre;Autre
+2026-11-14;entree;com.chalet-montagne/rentals;autre;Autre
+2026-11-14;entree;com.chateaupedia/chateaux;commerce_paiement;Commerce et paiement
+2026-11-14;entree;com.conformradar/conformradar;juridique_administration;Juridique et administration
+2026-11-14;entree;com.corporary/corporary;entreprises_registres;Entreprises et registres
+2026-11-14;entree;com.creacompare/creacompare;entreprises_registres;Entreprises et registres
+2026-11-14;entree;com.dataroia/data-trust;entreprises_registres;Entreprises et registres
+2026-11-14;entree;com.dialyne/dialyne;autre;Autre
+2026-11-14;entree;com.einvoicechecker/einvoice;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;com.einvoicewiz/einvoicewiz;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;com.facturxapi/mcp;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;com.faireplace/public-tools;autre;Autre
+2026-11-14;entree;com.filtrecharbon/catalogue;autre;Autre
+2026-11-14;entree;com.fondatoria/sites-vitrines;entreprises_registres;Entreprises et registres
+2026-11-14;entree;com.fuentio/company-data;entreprises_registres;Entreprises et registres
+2026-11-14;entree;com.fulfiller/agentic-commerce-api;transport_mobilite;Transport et mobilité
+2026-11-14;entree;com.furrsati/mcp;autre;Autre
+2026-11-14;entree;com.gdlivre/grand-livre;autre;Autre
+2026-11-14;entree;com.gestello/gestello;autre;Autre
+2026-11-14;entree;com.gositehunt/gositehunt;commerce_paiement;Commerce et paiement
+2026-11-14;entree;com.hornlib/mcp;autre;Autre
+2026-11-14;entree;com.hosco/hospitality-jobs;emploi_social;Emploi et social
+2026-11-14;entree;com.humanuscrit/happ;autre;Autre
+2026-11-14;entree;com.invoicexml/invoicexml;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;com.isoligne/index;autre;Autre
+2026-11-14;entree;com.kema-studio/olia;juridique_administration;Juridique et administration
+2026-11-14;entree;com.legitym/legal;juridique_administration;Juridique et administration
+2026-11-14;entree;com.losalidirect/numbers;commerce_paiement;Commerce et paiement
+2026-11-14;entree;com.mafactureok/mafactureok;entreprises_registres;Entreprises et registres
+2026-11-14;entree;com.mambabuilt/mcp-new-company-registrations-feed;entreprises_registres;Entreprises et registres
+2026-11-14;entree;com.margeoapp/mcp;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;com.meilleurcodeparrainage/codes-parrainage;autre;Autre
+2026-11-14;entree;com.moorishtimes/moorish-times;autre;Autre
+2026-11-14;entree;com.motifetmoi/motif-et-moi;autre;Autre
+2026-11-14;entree;com.mywedpaper/wedding-tools;autre;Autre
+2026-11-14;entree;com.neoavis/constats;autre;Autre
+2026-11-14;entree;com.padelexpertlab/raquettes;autre;Autre
+2026-11-14;entree;com.pawmultiverse/recalls;autre;Autre
+2026-11-14;entree;com.pv-solaire-energie/devis-solaire;autre;Autre
+2026-11-14;entree;com.resadock/resadock;autre;Autre
+2026-11-14;entree;com.ski-france/agent-search;commerce_paiement;Commerce et paiement
+2026-11-14;entree;com.smsvertpro/mcp;autre;Autre
+2026-11-14;entree;com.sooveryn/sooveryn;autre;Autre
+2026-11-14;entree;com.super-webmaster/seo;autre;Autre
+2026-11-14;entree;com.tally-stick/tallystick;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;com.toiseai/toise;geographie_territoire;Géographie et territoire
+2026-11-14;entree;com.vitef/vitef;juridique_administration;Juridique et administration
+2026-11-14;entree;com.vocaneo/vocaneo;emploi_social;Emploi et social
+2026-11-14;entree;com.voxfactura/voxfactura;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;com.washlib/washlib;commerce_paiement;Commerce et paiement
+2026-11-14;entree;com.weekspots/events;autre;Autre
+2026-11-14;entree;com.whensport/tour-de-france-2026;autre;Autre
+2026-11-14;entree;com.wpformation/wordpress;autre;Autre
+2026-11-14;entree;com.xsdhub/validation;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;cool.asap/mcp;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;de.fakturai/erechnung;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;de.finisma/finisma;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;de.zugferd-tools/csv2zugferd;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;de.zugferd-validator/validator;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;dev.bofip/bofip;donnees_publiques;Données publiques
+2026-11-14;entree;dev.invoicehub/invoicehub;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;dev.invowerk/xrechnung-e-invoice-validator;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;digital.karbach.polls/elections;autre;Autre
+2026-11-14;entree;energy.aztec/aztec-energy;autre;Autre
+2026-11-14;entree;estate.stream/mcp;autre;Autre
+2026-11-14;entree;eu.ansvar/french-law;juridique_administration;Juridique et administration
+2026-11-14;entree;eu.jaikin/software-prices-france;commerce_paiement;Commerce et paiement
+2026-11-14;entree;eu.sirenic/sirenic;entreprises_registres;Entreprises et registres
+2026-11-14;entree;eu.synapze/financial-intermediary-mcp;autre;Autre
+2026-11-14;entree;fr.apparais.www/apparais;autre;Autre
+2026-11-14;entree;fr.aucadastre/aucadastre;transport_mobilite;Transport et mobilité
+2026-11-14;entree;fr.auregistre/auregistre;entreprises_registres;Entreprises et registres
+2026-11-14;entree;fr.bensaid-avocats/fiscalite;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;fr.bocaross/annuaire;commerce_paiement;Commerce et paiement
+2026-11-14;entree;fr.boncourant/boncourant;autre;Autre
+2026-11-14;entree;fr.brandyze/mcp;emploi_social;Emploi et social
+2026-11-14;entree;fr.cadorama02/shop;commerce_paiement;Commerce et paiement
+2026-11-14;entree;fr.calculpro/outils-batiment;autre;Autre
+2026-11-14;entree;fr.calculsalairebrutnet/simulateurs;autre;Autre
+2026-11-14;entree;fr.calesvaut/calesvaut;autre;Autre
+2026-11-14;entree;fr.carhunt/carhunt;commerce_paiement;Commerce et paiement
+2026-11-14;entree;fr.chaletiste/chaletiste;commerce_paiement;Commerce et paiement
+2026-11-14;entree;fr.chaqueeuro/mcp;geographie_territoire;Géographie et territoire
+2026-11-14;entree;fr.chateaudubu/chateau-du-bu;commerce_paiement;Commerce et paiement
+2026-11-14;entree;fr.citexact/citexact;juridique_administration;Juridique et administration
+2026-11-14;entree;fr.comparr/comparr;commerce_paiement;Commerce et paiement
+2026-11-14;entree;fr.coupondroid/public;autre;Autre
+2026-11-14;entree;fr.coupure-elec.www/coupures;autre;Autre
+2026-11-14;entree;fr.ctweb/check;autre;Autre
+2026-11-14;entree;fr.custom-digital-services/mcp-devis;juridique_administration;Juridique et administration
+2026-11-14;entree;fr.declaclic/panneaux-solaires;autre;Autre
+2026-11-14;entree;fr.dikoo/dikoo;autre;Autre
+2026-11-14;entree;fr.dinilu/mcp;commerce_paiement;Commerce et paiement
+2026-11-14;entree;fr.diplometre/diplometre;emploi_social;Emploi et social
+2026-11-14;entree;fr.edifiable/edifiable;autre;Autre
+2026-11-14;entree;fr.edivia/lexia-juris;juridique_administration;Juridique et administration
+2026-11-14;entree;fr.edivia/lexia-pro;geographie_territoire;Géographie et territoire
+2026-11-14;entree;fr.estimatiz.www/estimatiz;commerce_paiement;Commerce et paiement
+2026-11-14;entree;fr.fixou/fixou;autre;Autre
+2026-11-14;entree;fr.flytel/flytel;autre;Autre
+2026-11-14;entree;fr.fonixia/agent-vocal;autre;Autre
+2026-11-14;entree;fr.fridgebase/frigos;autre;Autre
+2026-11-14;entree;fr.gentry/logement;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;fr.gluten-free/catalogue;autre;Autre
+2026-11-14;entree;fr.heavenpc/baies-informatiques;autre;Autre
+2026-11-14;entree;fr.hypotheques-en-ligne/hel;autre;Autre
+2026-11-14;entree;fr.ilicompta/cabinets;autre;Autre
+2026-11-14;entree;fr.info-scolarite/etablissements;geographie_territoire;Géographie et territoire
+2026-11-14;entree;fr.infoparcelle/infoparcelle;juridique_administration;Juridique et administration
+2026-11-14;entree;fr.ip73/ip73;autre;Autre
+2026-11-14;entree;fr.izifete/prestataires;autre;Autre
+2026-11-14;entree;fr.juan-branco/branco;juridique_administration;Juridique et administration
+2026-11-14;entree;fr.kitchenwatt/robots-de-cuisine;autre;Autre
+2026-11-14;entree;fr.lagrandecarte/mcp;geographie_territoire;Géographie et territoire
+2026-11-14;entree;fr.legalone/entreprises;entreprises_registres;Entreprises et registres
+2026-11-14;entree;fr.lesbancs/lesbancs;autre;Autre
+2026-11-14;entree;fr.librejustice/librejustice;juridique_administration;Juridique et administration
+2026-11-14;entree;fr.lingoris/traduction-assermentee;commerce_paiement;Commerce et paiement
+2026-11-14;entree;fr.lobbydex/lobbydex;autre;Autre
+2026-11-14;entree;fr.lybox/lybox;donnees_publiques;Données publiques
+2026-11-14;entree;fr.macoproenregle/macoproenregle;juridique_administration;Juridique et administration
+2026-11-14;entree;fr.marcel-retraite/marcel;emploi_social;Emploi et social
+2026-11-14;entree;fr.menageparfait/booking;autre;Autre
+2026-11-14;entree;fr.mesfraisnotaire/frais-notaire;autre;Autre
+2026-11-14;entree;fr.mesloisirs/recherche;autre;Autre
+2026-11-14;entree;fr.miramo/mcp;juridique_administration;Juridique et administration
+2026-11-14;entree;fr.missionmuseaux/annonces;autre;Autre
+2026-11-14;entree;fr.mitoyens/pesticides;geographie_territoire;Géographie et territoire
+2026-11-14;entree;fr.monbatchcooking/recettes;autre;Autre
+2026-11-14;entree;fr.monrdvkine/disponibilites;autre;Autre
+2026-11-14;entree;fr.nogogo/nogogo-ai;entreprises_registres;Entreprises et registres
+2026-11-14;entree;fr.ohmywind/sailing-planner;autre;Autre
+2026-11-14;entree;fr.omexis/invoice;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;fr.origami-entreprises/origami;entreprises_registres;Entreprises et registres
+2026-11-14;entree;fr.pareil-au-meme/mcp;autre;Autre
+2026-11-14;entree;fr.partner-construction/assurance-decennale;autre;Autre
+2026-11-14;entree;fr.petitpapasecret/petitpapasecret;autre;Autre
+2026-11-14;entree;fr.pocketplanner/pocketplanner;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;fr.projet-ariane/ariane-orientation;autre;Autre
+2026-11-14;entree;fr.publicoffre/marches-publics;entreprises_registres;Entreprises et registres
+2026-11-14;entree;fr.quirecrute/offres-emploi;emploi_social;Emploi et social
+2026-11-14;entree;fr.registers/registers;entreprises_registres;Entreprises et registres
+2026-11-14;entree;fr.remplirpdf/mcp-server;autre;Autre
+2026-11-14;entree;fr.rendita/rendita;commerce_paiement;Commerce et paiement
+2026-11-14;entree;fr.renoolab/mcp;autre;Autre
+2026-11-14;entree;fr.scorecredit/capucine;autre;Autre
+2026-11-14;entree;fr.scpiselect/scpi-select;commerce_paiement;Commerce et paiement
+2026-11-14;entree;fr.signamail/signamail;emploi_social;Emploi et social
+2026-11-14;entree;fr.socs/commande-publique;entreprises_registres;Entreprises et registres
+2026-11-14;entree;fr.souslagelule/complements;commerce_paiement;Commerce et paiement
+2026-11-14;entree;fr.statis-tir/statistir;autre;Autre
+2026-11-14;entree;fr.symone/symone-moto;transport_mobilite;Transport et mobilité
+2026-11-14;entree;fr.symphony/symphony;autre;Autre
+2026-11-14;entree;fr.synergieloc/immobilier;juridique_administration;Juridique et administration
+2026-11-14;entree;fr.tenderwatch/marches-publics;autre;Autre
+2026-11-14;entree;fr.verifier-ma-facture/validateur;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;fr.visitech/aides-renovation;autre;Autre
+2026-11-14;entree;fr.vlek/trame;autre;Autre
+2026-11-14;entree;fr.washedge/machines-a-laver;autre;Autre
+2026-11-14;entree;fr.washydish/lave-vaisselle;autre;Autre
+2026-11-14;entree;fr.woodroar/tronconneuses;autre;Autre
+2026-11-14;entree;fr.yardrider/tondeuses;autre;Autre
+2026-11-14;entree;holiday.nextbank/bank-holidays;commerce_paiement;Commerce et paiement
+2026-11-14;entree;host.beacon.worker.realgeeks-company-api/company-registry;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.arxo/cnaf;autre;Autre
+2026-11-14;entree;io.arxo/code-civil;juridique_administration;Juridique et administration
+2026-11-14;entree;io.github.ALDEBERTArnaud/mcp-rncp;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.AZERIA-IT/pluia;transport_mobilite;Transport et mobilité
+2026-11-14;entree;io.github.AmauryDvl/serpmantics;autre;Autre
+2026-11-14;entree;io.github.AnshumanAtrey/welcome-to-the-jungle-jobs-search;emploi_social;Emploi et social
+2026-11-14;entree;io.github.Anteos-Health/anteos-booking;sante;Santé
+2026-11-14;entree;io.github.Arenafriends/valerie-mcp;autre;Autre
+2026-11-14;entree;io.github.BricePourLe13/merx;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.CartonPliant/fr-legal-kit;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.CedricKouma/facturx-toolkit;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.CloudCorpRecords/firmproof;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.CloudCorpRecords/invoiceproof;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.France-Care/france-care;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.GOLayerone/layerone;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.Geornaden/peppol-xrechnung-facturx-einvoice-mcp;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.IDNSIDNS/tenderapi-mcp;autre;Autre
+2026-11-14;entree;io.github.JoJoLaBagarre/france-travail-mcp;emploi_social;Emploi et social
+2026-11-14;entree;io.github.JohnJackHouzi/droit-francais;juridique_administration;Juridique et administration
+2026-11-14;entree;io.github.JusticeUA/france-company-check;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.KilianPA/pryx;commerce_paiement;Commerce et paiement
+2026-11-14;entree;io.github.LeBorgneAntoine/facturx;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.Lfaykus/flatway-estimate;commerce_paiement;Commerce et paiement
+2026-11-14;entree;io.github.Marcoco27/sentinelle-catnat;geographie_territoire;Géographie et territoire
+2026-11-14;entree;io.github.Marcoco27/sentinelle-creances;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.Marcoco27/sentinelle-oppositions;autre;Autre
+2026-11-14;entree;io.github.Marcoco27/sentinelle-phyto;autre;Autre
+2026-11-14;entree;io.github.Marcoco27/sentinelle-syndic;autre;Autre
+2026-11-14;entree;io.github.NormiHQ/normi;autre;Autre
+2026-11-14;entree;io.github.Nutshell2000/agent-data-tools-company-check;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.OlivierLAVAUD/mcp-immo;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.OneNicolas/mcp-service-public;sante;Santé
+2026-11-14;entree;io.github.POP24/lebonfoin-mcp;autre;Autre
+2026-11-14;entree;io.github.SSTEmpresarial/official-fuel-prices;commerce_paiement;Commerce et paiement
+2026-11-14;entree;io.github.Termi24/eyeot-erp;autre;Autre
+2026-11-14;entree;io.github.TheCompanyAtlas/france-siren-company;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.Timi-Duban/gbfs-france;transport_mobilite;Transport et mobilité
+2026-11-14;entree;io.github.ValmoDev/joomil;commerce_paiement;Commerce et paiement
+2026-11-14;entree;io.github.Zansuken/french-due-diligence;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.adopteunconteneur/delivery-calculator;commerce_paiement;Commerce et paiement
+2026-11-14;entree;io.github.afredenslund/fredenslund-workshop-tools;autre;Autre
+2026-11-14;entree;io.github.amine7536/medicaments-france;sante;Santé
+2026-11-14;entree;io.github.arsalmurad/conformo;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.asheeran/canada-weather;autre;Autre
+2026-11-14;entree;io.github.benliberte/immo;donnees_publiques;Données publiques
+2026-11-14;entree;io.github.causa-prima-ai/scribo;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.ccamborde/klaren-mcp;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.charleskremer-hub/resolve402;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.cmendezs/mcp-facture-electronique-fr;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.corent1robert/french-companies-data;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.corent1robert/orias-insurance-intermediaries;commerce_paiement;Commerce et paiement
+2026-11-14;entree;io.github.corent1robert/safti-real-estate-agents;autre;Autre
+2026-11-14;entree;io.github.cturkieh/france-data-mcp;sante;Santé
+2026-11-14;entree;io.github.datadmon/welcome-to-the-jungle-jobs-scraper;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.digitranslu/ailexlux;juridique_administration;Juridique et administration
+2026-11-14;entree;io.github.gabrielkasmi/deeppvmapper;autre;Autre
+2026-11-14;entree;io.github.gaelasao/building-permits-api;autre;Autre
+2026-11-14;entree;io.github.hernaninverso/eleata-einvoice-mcp;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.herve-coulon/tax-retirement;emploi_social;Emploi et social
+2026-11-14;entree;io.github.holco-apps/pennypilot;autre;Autre
+2026-11-14;entree;io.github.iQuesta/MCP-iQuesta;autre;Autre
+2026-11-14;entree;io.github.iangcarroll/restaurant-health;sante;Santé
+2026-11-14;entree;io.github.imysfylmz/xrechnung-mcp;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.itsryanarmani/french4pr;autre;Autre
+2026-11-14;entree;io.github.jchauge/storied-mcp;autre;Autre
+2026-11-14;entree;io.github.jmshinhwa/france-einvoice-reception-lint;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.jmshinhwa/i18n-fr-ca-bill96-lint;autre;Autre
+2026-11-14;entree;io.github.kOlapsis/gofact;juridique_administration;Juridique et administration
+2026-11-14;entree;io.github.kanibal-studio/kanibal-tools-mcp;autre;Autre
+2026-11-14;entree;io.github.lacausecrypto/mcp-new-caledonia;donnees_publiques;Données publiques
+2026-11-14;entree;io.github.mabari2505/api-sorties-mcp;autre;Autre
+2026-11-14;entree;io.github.manganate006/openlmnp;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.matematicsolutions/fr-eli-mcp;juridique_administration;Juridique et administration
+2026-11-14;entree;io.github.matematicsolutions/mcp-fr-legal;juridique_administration;Juridique et administration
+2026-11-14;entree;io.github.maxime-desmarchelier/fr-grocery-mcp;autre;Autre
+2026-11-14;entree;io.github.maximepeabody/fabling;autre;Autre
+2026-11-14;entree;io.github.mcp-dir/inpi-mcp;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.mcp-dir/inpi_marcas-mcp;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.mcp-dir/inpi_marcas_processo-mcp;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.mcp-dir/inpi_marcas_processo_resumida-mcp;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.mcp-dir/inpi_marcas_titular-mcp;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.mcp-dir/inpi_patentes-mcp;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.morvanvivien/bibian-data;emploi_social;Emploi et social
+2026-11-14;entree;io.github.morvanvivien/bibian-france-jobs;emploi_social;Emploi et social
+2026-11-14;entree;io.github.mrfentmen/data-gouv-fr-mcp;donnees_publiques;Données publiques
+2026-11-14;entree;io.github.mrfentmen/data-gouv-mcp;donnees_publiques;Données publiques
+2026-11-14;entree;io.github.mrfentmen/hal-mcp;autre;Autre
+2026-11-14;entree;io.github.mrfentmen/theses-fr-mcp;autre;Autre
+2026-11-14;entree;io.github.muchiny/mcp-legifrance;juridique_administration;Juridique et administration
+2026-11-14;entree;io.github.naimterrache-a11y/frigolog-haccp;autre;Autre
+2026-11-14;entree;io.github.nconcierge/nlocale;autre;Autre
+2026-11-14;entree;io.github.nicolasfichaux1-blip/french-legal-mcp;juridique_administration;Juridique et administration
+2026-11-14;entree;io.github.pandadad0214/panda-leads-tools;autre;Autre
+2026-11-14;entree;io.github.paulovitorti/inpi-trademark-watch;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.paulovitorti/rpi-inpi-delta-monitor-marcas;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.peculiar-systems/invoicein;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.physics-star-cat/databutler-vehicles;autre;Autre
+2026-11-14;entree;io.github.pipeworx-io/amf-filings;autre;Autre
+2026-11-14;entree;io.github.pipeworx-io/ban-fr;geographie_territoire;Géographie et territoire
+2026-11-14;entree;io.github.pipeworx-io/bodacc;autre;Autre
+2026-11-14;entree;io.github.pipeworx-io/data-economie-fr;donnees_publiques;Données publiques
+2026-11-14;entree;io.github.pipeworx-io/data-iledefrance;donnees_publiques;Données publiques
+2026-11-14;entree;io.github.pipeworx-io/data-newcaledonia;donnees_publiques;Données publiques
+2026-11-14;entree;io.github.pipeworx-io/data-sncf;transport_mobilite;Transport et mobilité
+2026-11-14;entree;io.github.pipeworx-io/datagouv-fr;donnees_publiques;Données publiques
+2026-11-14;entree;io.github.pipeworx-io/entreprises-fr;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.pipeworx-io/fr-judilibre;autre;Autre
+2026-11-14;entree;io.github.pipeworx-io/france-bdpm-medicines;autre;Autre
+2026-11-14;entree;io.github.pipeworx-io/france-boamp;autre;Autre
+2026-11-14;entree;io.github.pipeworx-io/france-dvf;commerce_paiement;Commerce et paiement
+2026-11-14;entree;io.github.pipeworx-io/france-geodata;autre;Autre
+2026-11-14;entree;io.github.pipeworx-io/france-legi;juridique_administration;Juridique et administration
+2026-11-14;entree;io.github.pipeworx-io/hal-fr;autre;Autre
+2026-11-14;entree;io.github.pipeworx-io/idf-events;autre;Autre
+2026-11-14;entree;io.github.pipeworx-io/insee;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.pipeworx-io/nosdeputes-fr;autre;Autre
+2026-11-14;entree;io.github.pooriaarab/french4pr;autre;Autre
+2026-11-14;entree;io.github.pquattro/memoraeu;autre;Autre
+2026-11-14;entree;io.github.registry-desk/fr-sirene;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.rocnubie/deepseekfr-mcp;autre;Autre
+2026-11-14;entree;io.github.rodriguem75/banklabs;commerce_paiement;Commerce et paiement
+2026-11-14;entree;io.github.rodriguem75/datarespublica;autre;Autre
+2026-11-14;entree;io.github.rodriguem75/gridlabs;autre;Autre
+2026-11-14;entree;io.github.rodriguem75/telecomlabs;autre;Autre
+2026-11-14;entree;io.github.sadri-dridi/fr-insee;geographie_territoire;Géographie et territoire
+2026-11-14;entree;io.github.smart-byte/pdf-to-einvoice;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.smeet666/mcp-bideetmusique;autre;Autre
+2026-11-14;entree;io.github.smeet666/mcp-recipes;autre;Autre
+2026-11-14;entree;io.github.taraxe/cachet;autre;Autre
+2026-11-14;entree;io.github.tbalcinha/culturelib-discover;commerce_paiement;Commerce et paiement
+2026-11-14;entree;io.github.thinkmojo/gumball;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.trademarkiq/trademarkiq;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.tresor4k/creavores-aeo-mcp;donnees_publiques;Données publiques
+2026-11-14;entree;io.github.vincenz-cdf/fec-lint;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.waddou/mcp-compteparticulier;autre;Autre
+2026-11-14;entree;io.github.wellknownmcp/ia-asso;autre;Autre
+2026-11-14;entree;io.github.wenboteng/xrechnung-validator;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;io.github.yoavhizkiH/siren;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.zekinht0/vigilix-mcp;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.github.zoulouzaza76/lescribeaudio-mcp;autre;Autre
+2026-11-14;entree;io.insourcia/insourcia;entreprises_registres;Entreprises et registres
+2026-11-14;entree;io.offermagnet/jobs;emploi_social;Emploi et social
+2026-11-14;entree;io.pylote/mcp;autre;Autre
+2026-11-14;entree;io.toolzy/toolzy;autre;Autre
+2026-11-14;entree;io.veriport/veriport;entreprises_registres;Entreprises et registres
+2026-11-14;entree;jp.aluzza/wages-risk;emploi_social;Emploi et social
+2026-11-14;entree;ma.madda/law;juridique_administration;Juridique et administration
+2026-11-14;entree;ms.awesomefor/forms;autre;Autre
+2026-11-14;entree;nl.nltaxcalculator/salary-fr;fiscalite_facturation;Fiscalité et facturation
+2026-11-14;entree;org.dpdns.clair/clair;juridique_administration;Juridique et administration
+2026-11-14;entree;org.duckdns.gregswarm.api/open-data;entreprises_registres;Entreprises et registres
+2026-11-14;entree;org.lampions/scrutins;autre;Autre
+2026-11-14;entree;pro.getyourjob/getyourjob;emploi_social;Emploi et social
+2026-11-14;entree;pro.rebond/offres-emploi;emploi_social;Emploi et social
+2026-11-14;entree;re.parcellai/parcellaire;transport_mobilite;Transport et mobilité
+2026-11-14;entree;realestate.secrets/property-intelligence;commerce_paiement;Commerce et paiement
+2026-11-14;entree;sh.nophi/nophish;commerce_paiement;Commerce et paiement
+2026-11-14;entree;sh.while/while;emploi_social;Emploi et social
+2026-11-14;entree;shop.eglise/librairie;commerce_paiement;Commerce et paiement
+2026-11-14;entree;si.findadoctor.api-fr/fr-doctor-finder;autre;Autre
+2026-11-14;entree;si.findadoctor.api/us-doctor-finder;autre;Autre
+2026-11-14;entree;tn.qanun/qanun-mcp;juridique_administration;Juridique et administration
+2026-11-14;entree;vote.andre/elections;geographie_territoire;Géographie et territoire
+2026-11-14;entree;work.finder/jobs;emploi_social;Emploi et social
+2026-11-14;entree;world.pionra/pionra;emploi_social;Emploi et social
+2026-11-14;ecarte;fr.suxession/suxession;fiscalite_facturation;écarté : adresse IPv4 (champ « version »)

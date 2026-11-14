@@ -1,0 +1,55 @@
+{
+    "description": "Catégories des serveurs, attribuées par mots-clés : la première catégorie dont un mot-clé figure (sans majuscules ni accents, en mot entier) dans le nom, le titre ou la description du serveur l'emporte ; sinon « autre », qui doit rester en dernier, sans mot-clé.",
+    "categories": [
+        {
+            "cle": "entreprises_registres",
+            "libelle": "Entreprises et registres",
+            "mots_cles": ["siren", "siret", "sirene", "api entreprise", "annuaire entreprises", "pappers", "societe.com", "infogreffe", "inpi", "rcs", "kbis", "company", "companies", "entreprise", "entreprises", "business registry"]
+        },
+        {
+            "cle": "emploi_social",
+            "libelle": "Emploi et social",
+            "mots_cles": ["france travail", "pole emploi", "urssaf", "emploi", "job", "jobs", "employment", "caf", "retraite", "social"]
+        },
+        {
+            "cle": "sante",
+            "libelle": "Santé",
+            "mots_cles": ["ameli", "sante", "health", "healthcare", "medicament", "medicaments", "medication", "drug", "drugs", "hopital", "hospital", "medical", "pharmacie", "pharmacy"]
+        },
+        {
+            "cle": "juridique_administration",
+            "libelle": "Juridique et administration",
+            "mots_cles": ["legifrance", "droit", "juridique", "legal", "law", "laws", "loi", "lois", "jurisprudence", "code civil", "service public", "administration", "demarches"]
+        },
+        {
+            "cle": "fiscalite_facturation",
+            "libelle": "Fiscalité et facturation",
+            "mots_cles": ["impots.gouv", "dgfip", "impot", "impots", "tax", "taxes", "tva", "vat", "facture electronique", "factur-x", "chorus pro", "invoice", "invoicing", "e-invoicing", "facture", "factures", "facturation"]
+        },
+        {
+            "cle": "transport_mobilite",
+            "libelle": "Transport et mobilité",
+            "mots_cles": ["sncf", "train", "trains", "transport", "transports", "mobilite", "mobility", "velo", "bike", "bikes", "bus", "metro", "ratp", "shipping", "logistics", "logistique", "expedition", "livraison", "colis", "parcel", "flight", "flights"]
+        },
+        {
+            "cle": "geographie_territoire",
+            "libelle": "Géographie et territoire",
+            "mots_cles": ["ign", "geoportail", "cadastre", "geographie", "geography", "geocoding", "adresse", "adresses", "commune", "communes", "territoire", "map", "maps", "carte", "cartes", "gis"]
+        },
+        {
+            "cle": "donnees_publiques",
+            "libelle": "Données publiques",
+            "mots_cles": ["data.gouv", "datagouv", "gouv.fr", "etalab", "insee", "open data", "opendata", "donnees ouvertes", "donnees publiques", "public data", "statistics", "statistiques"]
+        },
+        {
+            "cle": "commerce_paiement",
+            "libelle": "Commerce et paiement",
+            "mots_cles": ["commerce", "e-commerce", "ecommerce", "shop", "shopping", "boutique", "paiement", "payment", "payments", "banque", "bank", "banking", "retail", "marketplace", "prix", "price", "prices"]
+        },
+        {
+            "cle": "autre",
+            "libelle": "Autre",
+            "mots_cles": []
+        }
+    ]
+}

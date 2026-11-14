@@ -1,0 +1,4 @@
+{
+    "description": "Serveurs retirés à la main de la liste : nom exact du registre, raison courte, date (AAAA-MM-JJ). Une exclusion est un choix éditorial (serveur sans lien réel avec la France, par exemple), pas un garde-fou.",
+    "exclusions": []
+}

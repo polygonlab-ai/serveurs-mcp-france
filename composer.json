@@ -1,0 +1,51 @@
+{
+    "name": "polygonlab/serveurs-mcp-france",
+    "description": "Liste des serveurs MCP liés à la France, reprise du registre MCP officiel, en JSON et CSV, mise à jour chaque semaine.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["mcp", "model-context-protocol", "mcp-servers", "france", "open-data", "awesome-list", "json", "csv", "donnees-publiques", "ai-agents"],
+    "homepage": "https://github.com/polygonlab-ai/serveurs-mcp-france",
+    "authors": [
+        {
+            "name": "PolygonLab",
+            "email": "contact@polygonlab.ai",
+            "homepage": "https://polygonlab.ai"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/polygonlab-ai/serveurs-mcp-france/issues",
+        "source": "https://github.com/polygonlab-ai/serveurs-mcp-france",
+        "security": "https://github.com/polygonlab-ai/serveurs-mcp-france/security/policy"
+    },
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "friendsofphp/php-cs-fixer": "^3.95",
+        "justinrainbow/json-schema": "^6.4",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PolygonLab\\ServeursMcpFrance\\Outils\\": "tools/src/",
+            "PolygonLab\\ServeursMcpFrance\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse --no-progress",
+        "style": "php-cs-fixer fix --dry-run --diff",
+        "style-corriger": "php-cs-fixer fix",
+        "actualiser": "php tools/actualiser.php"
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

@@ -1,0 +1,18 @@
+{
+    "source": "Registre MCP officiel, registry.modelcontextprotocol.io",
+    "page": "https://registry.modelcontextprotocol.io",
+    "lu_le": "2026-11-14T16:03:28+01:00",
+    "date_source": "2026-11-14",
+    "fichiers": [
+        {
+            "cle": "registre",
+            "url": "https://registry.modelcontextprotocol.io/v0/servers?version=latest",
+            "sha256": "4b5b6d4a6d08bf9d3691fc9cf18cc9aa54ca9a87cf8a562b84cf2f46598e098f",
+            "taille": 243414,
+            "pages": 640,
+            "entrees_lues": 63991,
+            "serveurs_actifs": 62968,
+            "serveurs_retenus": 357
+        }
+    ]
+}

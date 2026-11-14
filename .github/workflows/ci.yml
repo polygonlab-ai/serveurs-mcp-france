@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# Droits minimaux : lecture du code seulement.
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    name: PHP ${{ matrix.php }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        php: ['8.2', '8.3', '8.4']
+    steps:
+      # Actions épinglées par leur empreinte (SHA) ; Dependabot les met à jour.
+      - name: Récupération du code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Installation de PHP
+        uses: shivammathur/setup-php@eb7c497e18156a6bbabfef1d3a82760b9eda3962 # 2.40.0
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: none
+          tools: composer:v2
+          extensions: curl, mbstring
+
+      - name: Installation des dépendances
+        run: composer install --no-interaction --no-progress --prefer-dist
+
+      - name: Tests (PHPUnit), dont la conformité de data/ au schéma
+        run: vendor/bin/phpunit
+
+      - name: Analyse statique (PHPStan, niveau max)
+        run: vendor/bin/phpstan analyse --no-progress
+
+      - name: Style (PHP-CS-Fixer, PER Coding Style)
+        run: vendor/bin/php-cs-fixer fix --dry-run --diff
+        env:
+          PHP_CS_FIXER_IGNORE_ENV: '1'

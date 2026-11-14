@@ -1,0 +1,19 @@
+# Dépendances et fichiers produits
+/vendor/
+/node_modules/
+/composer.lock
+/.phpunit.cache/
+/.php-cs-fixer.cache
+
+# Secrets : jamais dans un dépôt
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Éditeurs et systèmes
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
