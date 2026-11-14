@@ -1,4 +1,180 @@
 {
     "description": "Serveurs retirés à la main de la liste : nom exact du registre, raison courte, date (AAAA-MM-JJ). Une exclusion est un choix éditorial (serveur sans lien réel avec la France, par exemple), pas un garde-fou.",
-    "exclusions": []
+    "exclusions": [
+        {
+            "nom": "ai.mysiren/siren",
+            "raison": "Homonyme : sans lien avec la France",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.thinkmojo/gumball",
+            "raison": "Homonyme : sans lien avec la France",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.yoavhizkiH/siren",
+            "raison": "Homonyme : sans lien avec la France",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "com.hornlib/mcp",
+            "raison": "Homonyme : sans lien avec la France",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.afredenslund/fredenslund-workshop-tools",
+            "raison": "Homonyme : sans lien avec la France",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.mcp-dir/inpi-mcp",
+            "raison": "INPI brésilien, pas l'INPI français",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.mcp-dir/inpi_marcas-mcp",
+            "raison": "INPI brésilien, pas l'INPI français",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.mcp-dir/inpi_marcas_processo-mcp",
+            "raison": "INPI brésilien, pas l'INPI français",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.mcp-dir/inpi_marcas_processo_resumida-mcp",
+            "raison": "INPI brésilien, pas l'INPI français",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.mcp-dir/inpi_marcas_titular-mcp",
+            "raison": "INPI brésilien, pas l'INPI français",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.mcp-dir/inpi_patentes-mcp",
+            "raison": "INPI brésilien, pas l'INPI français",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.paulovitorti/inpi-trademark-watch",
+            "raison": "INPI brésilien, pas l'INPI français",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.paulovitorti/rpi-inpi-delta-monitor-marcas",
+            "raison": "INPI brésilien, pas l'INPI français",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.trademarkiq/trademarkiq",
+            "raison": "INPI brésilien, pas l'INPI français",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "com.furrsati/mcp",
+            "raison": "Autre pays francophone : lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "com.moorishtimes/moorish-times",
+            "raison": "Autre pays francophone : lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "ma.madda/law",
+            "raison": "Autre pays francophone : lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "tn.qanun/qanun-mcp",
+            "raison": "Autre pays francophone : lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.asheeran/canada-weather",
+            "raison": "Autre pays francophone : lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.itsryanarmani/french4pr",
+            "raison": "Autre pays francophone : lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.pooriaarab/french4pr",
+            "raison": "Autre pays francophone : lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.jmshinhwa/i18n-fr-ca-bill96-lint",
+            "raison": "Autre pays francophone : lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.ValmoDev/joomil",
+            "raison": "Autre pays francophone : lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "ch.geneversleep/events",
+            "raison": "Autre pays francophone : lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.maximepeabody/fabling",
+            "raison": "Lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.smeet666/mcp-recipes",
+            "raison": "Lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "com.mywedpaper/wedding-tools",
+            "raison": "Lien par la langue seulement",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "com.pawmultiverse/recalls",
+            "raison": "France citée parmi d'autres pays, service centré ailleurs",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.iangcarroll/restaurant-health",
+            "raison": "France citée parmi d'autres pays, service centré ailleurs",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.physics-star-cat/databutler-vehicles",
+            "raison": "France citée parmi d'autres pays, service centré ailleurs",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "jp.aluzza/wages-risk",
+            "raison": "France citée parmi d'autres pays, service centré ailleurs",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "work.finder/jobs",
+            "raison": "France citée parmi d'autres pays, service centré ailleurs",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.gaelasao/building-permits-api",
+            "raison": "France citée parmi d'autres pays, service centré ailleurs",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "io.github.pandadad0214/panda-leads-tools",
+            "raison": "France citée parmi d'autres pays, service centré ailleurs",
+            "date": "2026-11-14"
+        },
+        {
+            "nom": "si.findadoctor.api/us-doctor-finder",
+            "raison": "France citée parmi d'autres pays, service centré ailleurs",
+            "date": "2026-11-14"
+        }
+    ]
 }

@@ -2,38 +2,20 @@
     "source": "Registre MCP officiel, registry.modelcontextprotocol.io",
     "page": "https://registry.modelcontextprotocol.io",
     "date_source": "2026-11-14",
-    "nombre": 356,
+    "nombre": 321,
     "nombres": {
-        "entreprises_registres": 55,
-        "emploi_social": 21,
-        "sante": 5,
-        "juridique_administration": 26,
+        "entreprises_registres": 43,
+        "emploi_social": 19,
+        "sante": 4,
+        "juridique_administration": 24,
         "fiscalite_facturation": 39,
         "transport_mobilite": 9,
         "geographie_territoire": 12,
         "donnees_publiques": 12,
-        "commerce_paiement": 35,
-        "autre": 142
+        "commerce_paiement": 34,
+        "autre": 125
     },
     "serveurs": [
-        {
-            "nom": "ai.mysiren/siren",
-            "titre": "Siren",
-            "description": "Deterministic visual marketing engine. Your agent plans, renders, and posts on-brand campaigns.",
-            "version": "1.1.0",
-            "categorie": "entreprises_registres",
-            "depot": "https://github.com/Hexahedral-Inc/siren-mcp",
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://mcp.mysiren.ai/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-09-09",
-            "mis_a_jour_le": "2026-09-09"
-        },
         {
             "nom": "ai.profils/registry",
             "titre": "profils.ai French company registry",
@@ -231,24 +213,6 @@
             "paquets": [],
             "publie_le": "2026-09-23",
             "mis_a_jour_le": "2026-09-23"
-        },
-        {
-            "nom": "ch.geneversleep/events",
-            "titre": "GeNEVERsleep",
-            "description": "Read-only nightlife events for Geneva, Lausanne, Nyon, Romandy and neighbouring France.",
-            "version": "0.1.1",
-            "categorie": "autre",
-            "depot": null,
-            "site": "https://geneversleep.ch/api",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://mcp.geneversleep.ch/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-11",
-            "mis_a_jour_le": "2026-11-11"
         },
         {
             "nom": "co.nautilinks/nautilinks-mcp",
@@ -795,24 +759,6 @@
             "mis_a_jour_le": "2026-10-07"
         },
         {
-            "nom": "com.furrsati/mcp",
-            "titre": "Furrsati",
-            "description": "Search Furrsati's Lebanese freelancers by skill, rate and rating, in English, Arabic or French.",
-            "version": "0.1.0",
-            "categorie": "autre",
-            "depot": null,
-            "site": "https://furrsati.com/mcp",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://mcp.furrsati.com/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-09-24",
-            "mis_a_jour_le": "2026-09-24"
-        },
-        {
             "nom": "com.gdlivre/grand-livre",
             "titre": "Grand Livre",
             "description": "French bookkeeping for freelancers and small businesses: entries, ledger, trial balance, matching.",
@@ -865,24 +811,6 @@
             "paquets": [],
             "publie_le": "2026-08-29",
             "mis_a_jour_le": "2026-08-29"
-        },
-        {
-            "nom": "com.hornlib/mcp",
-            "titre": "HornLib — Interactive French Horn F/Bb Double Horn Fingering & Harmonics Engine",
-            "description": "Look up French Horn F/Bb double horn valve fingerings, trigger combinations & partials.",
-            "version": "1.0.3",
-            "categorie": "autre",
-            "depot": "https://github.com/HornLib/mcp-server",
-            "site": "https://hornlib.com",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://hornlib.com/api/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-08",
-            "mis_a_jour_le": "2026-11-08"
         },
         {
             "nom": "com.hosco/hospitality-jobs",
@@ -1083,24 +1011,6 @@
             "mis_a_jour_le": "2026-11-06"
         },
         {
-            "nom": "com.moorishtimes/moorish-times",
-            "titre": "The Moorish Times",
-            "description": "Search, read and cite The Moorish Times: Moroccan history, culture and news, in French and English.",
-            "version": "2.4.0",
-            "categorie": "autre",
-            "depot": null,
-            "site": "https://moorishtimes.com",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://mcp.moorish.cloud/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-01",
-            "mis_a_jour_le": "2026-11-01"
-        },
-        {
             "nom": "com.motifetmoi/motif-et-moi",
             "titre": "Motif & Moi",
             "description": "Custom clothing printed in Rennes, France: catalog, quotes, delivery dates, prefilled order links.",
@@ -1117,24 +1027,6 @@
             "paquets": [],
             "publie_le": "2026-10-25",
             "mis_a_jour_le": "2026-10-25"
-        },
-        {
-            "nom": "com.mywedpaper/wedding-tools",
-            "titre": "My Wed Paper Wedding Tools",
-            "description": "Wedding crosswords, newspaper templates, and printing guidance in English and French.",
-            "version": "1.0.0",
-            "categorie": "autre",
-            "depot": null,
-            "site": "https://mywedpaper.com/mcp/",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://mywedpaper.com/mcp/wedding-tools"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-10-15",
-            "mis_a_jour_le": "2026-10-15"
         },
         {
             "nom": "com.neoavis/constats",
@@ -1171,24 +1063,6 @@
             "paquets": [],
             "publie_le": "2026-11-09",
             "mis_a_jour_le": "2026-11-09"
-        },
-        {
-            "nom": "com.pawmultiverse/recalls",
-            "titre": "Paw Multiverse pet food recalls",
-            "description": "Pet food recalls from US, UK, Canadian and French registers, kept after removal.",
-            "version": "1.0.0",
-            "categorie": "autre",
-            "depot": null,
-            "site": "https://pawmultiverse.com/developers/",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://pawmultiverse.com/mcp-recalls"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-11",
-            "mis_a_jour_le": "2026-11-11"
         },
         {
             "nom": "com.pv-solaire-energie/devis-solaire",
@@ -4052,7 +3926,7 @@
             "nom": "io.github.Nutshell2000/agent-data-tools-company-check",
             "titre": "Agent Data Tools: Company and VAT check",
             "description": "8 tools: EU VAT (VIES), Nordic and French company registers, LEI and OFAC sanctions checks.",
-            "version": "1.177.0",
+            "version": "1.179.0",
             "categorie": "entreprises_registres",
             "depot": "https://github.com/Nutshell2000/agent-data-tools",
             "site": "https://agent-data-tools.revmesh2074.workers.dev/",
@@ -4193,24 +4067,6 @@
             "mis_a_jour_le": "2026-11-05"
         },
         {
-            "nom": "io.github.ValmoDev/joomil",
-            "titre": "Joomil — Swiss Classifieds MCP",
-            "description": "Search Swiss classifieds on Joomil.ch — top marketplace in French-speaking Switzerland since 2007.",
-            "version": "1.0.0",
-            "categorie": "commerce_paiement",
-            "depot": "https://github.com/Valmo-Sarl/joomil-mcp",
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://joomil-mcp.snowy-surf-deec.workers.dev/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-04-10",
-            "mis_a_jour_le": "2026-04-10"
-        },
-        {
             "nom": "io.github.Zansuken/french-due-diligence",
             "titre": "French Due Diligence",
             "description": "Keyless French company checks (Sirene, BODACC, VIES, sanctions), DPE compliance, product recalls",
@@ -4247,24 +4103,6 @@
             "mis_a_jour_le": "2026-05-09"
         },
         {
-            "nom": "io.github.afredenslund/fredenslund-workshop-tools",
-            "titre": "Fredenslund workshop tools",
-            "description": "MFT/3 hole patterns (Shaper-ready SVG) and French cleat wall plans with cut lists. Free, unofficial.",
-            "version": "1.0.10",
-            "categorie": "autre",
-            "depot": null,
-            "site": "https://fredenslund.dk/mcp",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://fredenslund.dk/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-09-27",
-            "mis_a_jour_le": "2026-09-27"
-        },
-        {
             "nom": "io.github.amine7536/medicaments-france",
             "titre": "Médicaments en France",
             "description": "French medicines (ANSM + BDPM): boxes and prices, prescription conditions, safety info, shortages.",
@@ -4299,24 +4137,6 @@
             ],
             "publie_le": "2026-11-12",
             "mis_a_jour_le": "2026-11-12"
-        },
-        {
-            "nom": "io.github.asheeran/canada-weather",
-            "titre": "Canada Weather",
-            "description": "Official Canadian weather: forecasts, conditions, alerts and air quality in English and French.",
-            "version": "1.0.0",
-            "categorie": "autre",
-            "depot": null,
-            "site": "https://weather.sitesy.ca/",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://weather.sitesy.ca/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-10-30",
-            "mis_a_jour_le": "2026-10-30"
         },
         {
             "nom": "io.github.benliberte/immo",
@@ -4540,24 +4360,6 @@
             "mis_a_jour_le": "2026-09-25"
         },
         {
-            "nom": "io.github.gaelasao/building-permits-api",
-            "titre": null,
-            "description": "Building permits from 18 US cities (NYC, LA, Chicago, Philadelphia...), Canada, Ireland, France.",
-            "version": "1.0.3",
-            "categorie": "autre",
-            "depot": "https://github.com/gaelasao/apify-mcp-tools",
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://mcp.apify.com/?tools=gaelasao/planning-data-au-nz-fr"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-10-27",
-            "mis_a_jour_le": "2026-10-27"
-        },
-        {
             "nom": "io.github.hernaninverso/eleata-einvoice-mcp",
             "titre": "Eleata e-Invoice Validator",
             "description": "Validate EU e-invoices (Peppol, XRechnung, Factur-X, UBL, CII) and explain error codes.",
@@ -4630,24 +4432,6 @@
             "mis_a_jour_le": "2026-06-19"
         },
         {
-            "nom": "io.github.iangcarroll/restaurant-health",
-            "titre": "Restaurant Health Inspections",
-            "description": "Restaurant health inspection grades and violations for 20 US, UK, Canadian and French locations.",
-            "version": "1.0.0",
-            "categorie": "sante",
-            "depot": "https://github.com/iangcarroll/food",
-            "site": "https://food.ian.sh",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://food.ian.sh/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-10",
-            "mis_a_jour_le": "2026-11-10"
-        },
-        {
             "nom": "io.github.imysfylmz/xrechnung-mcp",
             "titre": null,
             "description": "Validate and parse German e-invoices (XRechnung, ZUGFeRD, Factur-X) offline. No API key.",
@@ -4664,24 +4448,6 @@
             ],
             "publie_le": "2026-08-24",
             "mis_a_jour_le": "2026-08-24"
-        },
-        {
-            "nom": "io.github.itsryanarmani/french4pr",
-            "titre": null,
-            "description": "French tests and schools that count for Canadian PR.",
-            "version": "1.0.0",
-            "categorie": "autre",
-            "depot": "https://github.com/itsryanarmani/directory",
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://french4pr.com/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-07",
-            "mis_a_jour_le": "2026-11-07"
         },
         {
             "nom": "io.github.jchauge/storied-mcp",
@@ -4714,24 +4480,6 @@
                 {
                     "registre": "npm",
                     "identifiant": "@readystack/france-einvoice-reception-lint"
-                }
-            ],
-            "publie_le": "2026-09-23",
-            "mis_a_jour_le": "2026-09-23"
-        },
-        {
-            "nom": "io.github.jmshinhwa/i18n-fr-ca-bill96-lint",
-            "titre": null,
-            "description": "Finds the France-French and left-over English lines in your fr-CA locale file before an OQLF complai",
-            "version": "1.0.1",
-            "categorie": "autre",
-            "depot": "https://github.com/jmshinhwa/readystack-themes",
-            "site": null,
-            "distant": [],
-            "paquets": [
-                {
-                    "registre": "npm",
-                    "identifiant": "@readystack/i18n-fr-ca-bill96-lint"
                 }
             ],
             "publie_le": "2026-09-23",
@@ -4900,132 +4648,6 @@
             ],
             "publie_le": "2026-10-26",
             "mis_a_jour_le": "2026-10-26"
-        },
-        {
-            "nom": "io.github.maximepeabody/fabling",
-            "titre": "Fabling",
-            "description": "Practice Spanish and French using saved vocabulary, grammar progress, and practice focus.",
-            "version": "1.0.2",
-            "categorie": "autre",
-            "depot": null,
-            "site": "https://fabling.app/connect/help",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://fabling.app/api/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-10-01",
-            "mis_a_jour_le": "2026-10-01"
-        },
-        {
-            "nom": "io.github.mcp-dir/inpi-mcp",
-            "titre": "INPI",
-            "description": "Brazilian INPI trademark & patent lookup by name, process number or holder (CPF/CNPJ).",
-            "version": "0.1.0",
-            "categorie": "entreprises_registres",
-            "depot": "https://github.com/mcp-dir/inpi-mcp",
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://api.mcp.ai/p_inpi"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-06-25",
-            "mis_a_jour_le": "2026-06-25"
-        },
-        {
-            "nom": "io.github.mcp-dir/inpi_marcas-mcp",
-            "titre": "INPI: Marcas",
-            "description": "INPI: Marcas, official-source lookup. Platform-hosted, pay per query with prepaid credit.",
-            "version": "0.1.0",
-            "categorie": "entreprises_registres",
-            "depot": "https://github.com/mcp-dir/inpi_marcas-mcp",
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://api.mcp.ai/p_inpi_marcas"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-08-20",
-            "mis_a_jour_le": "2026-08-20"
-        },
-        {
-            "nom": "io.github.mcp-dir/inpi_marcas_processo-mcp",
-            "titre": "INPI: Processo de Registro de Marca (Completa)",
-            "description": "INPI: Court Case de Registro de Marca (Completa), official-source lookup. Platform-hosted, pay per q",
-            "version": "0.1.0",
-            "categorie": "entreprises_registres",
-            "depot": "https://github.com/mcp-dir/inpi_marcas_processo-mcp",
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://api.mcp.ai/p_inpi_marcas_processo"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-08-20",
-            "mis_a_jour_le": "2026-08-20"
-        },
-        {
-            "nom": "io.github.mcp-dir/inpi_marcas_processo_resumida-mcp",
-            "titre": "INPI: Processo de Registro de Marca (Resumida)",
-            "description": "INPI: Court Case de Registro de Marca (Resumida), official-source lookup. Platform-hosted, pay per q",
-            "version": "0.1.0",
-            "categorie": "entreprises_registres",
-            "depot": "https://github.com/mcp-dir/inpi_marcas_processo_resumida-mcp",
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://api.mcp.ai/p_inpi_marcas_processo_resumida"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-08-20",
-            "mis_a_jour_le": "2026-08-20"
-        },
-        {
-            "nom": "io.github.mcp-dir/inpi_marcas_titular-mcp",
-            "titre": "INPI Marcas por CPF: CNPJ",
-            "description": "INPI Marcas por CPF: CNPJ, official-source lookup. Platform-hosted, pay per query with prepaid credi",
-            "version": "0.1.0",
-            "categorie": "entreprises_registres",
-            "depot": "https://github.com/mcp-dir/inpi_marcas_titular-mcp",
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://api.mcp.ai/p_inpi_marcas_titular"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-08-20",
-            "mis_a_jour_le": "2026-08-20"
-        },
-        {
-            "nom": "io.github.mcp-dir/inpi_patentes-mcp",
-            "titre": "INPI: Patentes",
-            "description": "INPI: Patentes, official-source lookup. Platform-hosted, pay per query with prepaid credit.",
-            "version": "0.1.0",
-            "categorie": "entreprises_registres",
-            "depot": "https://github.com/mcp-dir/inpi_patentes-mcp",
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://api.mcp.ai/p_inpi_patentes"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-08-20",
-            "mis_a_jour_le": "2026-08-20"
         },
         {
             "nom": "io.github.morvanvivien/bibian-data",
@@ -5212,60 +4834,6 @@
             "mis_a_jour_le": "2026-10-06"
         },
         {
-            "nom": "io.github.pandadad0214/panda-leads-tools",
-            "titre": "Panda Leads Tools",
-            "description": "Public leads from official data: NPI, local, hiring, trucking, IRS, permits, new firms, France (15).",
-            "version": "0.2.0",
-            "categorie": "autre",
-            "depot": "https://github.com/pandadad0214/panda-leads-tools",
-            "site": "https://github.com/pandadad0214/panda-leads-tools",
-            "distant": [],
-            "paquets": [
-                {
-                    "registre": "pypi",
-                    "identifiant": "panda-leads-tools"
-                }
-            ],
-            "publie_le": "2026-11-10",
-            "mis_a_jour_le": "2026-11-10"
-        },
-        {
-            "nom": "io.github.paulovitorti/inpi-trademark-watch",
-            "titre": "Brazil Trademark Watch — INPI/RPI Monitor & Deadline Alerts",
-            "description": "Monitors Brazilian trademarks at INPI and alerts on new RPI publications and deadlines.",
-            "version": "1.0.0",
-            "categorie": "entreprises_registres",
-            "depot": null,
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://mcp.apify.com?tools=paulovitor18/inpi-trademark-watch"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-09-07",
-            "mis_a_jour_le": "2026-09-07"
-        },
-        {
-            "nom": "io.github.paulovitorti/rpi-inpi-delta-monitor-marcas",
-            "titre": "Monitor de Marcas INPI — Alertas da RPI por Processo",
-            "description": "Monitora marcas no INPI e alerta despachos novos da RPI por processo ou titular.",
-            "version": "1.0.0",
-            "categorie": "entreprises_registres",
-            "depot": null,
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://mcp.apify.com?tools=paulovitor18/rpi-inpi-delta-monitor-marcas"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-09-07",
-            "mis_a_jour_le": "2026-09-07"
-        },
-        {
             "nom": "io.github.peculiar-systems/invoicein",
             "titre": "InvoiceIn",
             "description": "XRechnung, Factur-X, Peppol, PINT AE, FatturaPA, KSeF → JSON + fix hints. Hosted; MIT=examples only",
@@ -5282,24 +4850,6 @@
             "paquets": [],
             "publie_le": "2026-09-25",
             "mis_a_jour_le": "2026-09-25"
-        },
-        {
-            "nom": "io.github.physics-star-cat/databutler-vehicles",
-            "titre": null,
-            "description": "UK MOT failure data and official UK, French, Japanese and EU vehicle recalls.",
-            "version": "1.0.0",
-            "categorie": "autre",
-            "depot": "https://github.com/physics-star-cat/databutler",
-            "site": "https://databutler.dev/api",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://databutler.dev/api/mcp/vehicles"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-10-04",
-            "mis_a_jour_le": "2026-10-04"
         },
         {
             "nom": "io.github.pipeworx-io/amf-filings",
@@ -5739,24 +5289,6 @@
             "mis_a_jour_le": "2026-11-03"
         },
         {
-            "nom": "io.github.pooriaarab/french4pr",
-            "titre": null,
-            "description": "French tests and schools that count for Canadian PR.",
-            "version": "1.0.0",
-            "categorie": "autre",
-            "depot": "https://github.com/pooriaarab/directory",
-            "site": null,
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://french4pr.com/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-10-21",
-            "mis_a_jour_le": "2026-10-21"
-        },
-        {
             "nom": "io.github.pquattro/memoraeu",
             "titre": "MemoraEU",
             "description": "Zero-knowledge persistent memory layer for AI agents. Encrypted client-side, hosted in France.",
@@ -5931,28 +5463,6 @@
             "mis_a_jour_le": "2026-10-29"
         },
         {
-            "nom": "io.github.smeet666/mcp-recipes",
-            "titre": null,
-            "description": "Search six recipe sites at once, in French, English and Spanish, and scale quantities.",
-            "version": "4.1.0",
-            "categorie": "autre",
-            "depot": "https://github.com/smeet666/mcp-recipes",
-            "site": "https://github.com/smeet666/mcp-recipes#readme",
-            "distant": [],
-            "paquets": [
-                {
-                    "registre": "npm",
-                    "identifiant": "mcp-recipes"
-                },
-                {
-                    "registre": "mcpb",
-                    "identifiant": "https://github.com/smeet666/mcp-recipes/releases/download/v4.1.0/mcp-recipes-4.1.0.mcpb"
-                }
-            ],
-            "publie_le": "2026-10-29",
-            "mis_a_jour_le": "2026-10-29"
-        },
-        {
             "nom": "io.github.taraxe/cachet",
             "titre": "Cachet",
             "description": "Send real paper mail in France from your agent: letters, tracked and registered letters with AR.",
@@ -5987,42 +5497,6 @@
             "paquets": [],
             "publie_le": "2026-07-09",
             "mis_a_jour_le": "2026-07-09"
-        },
-        {
-            "nom": "io.github.thinkmojo/gumball",
-            "titre": "Gumball",
-            "description": "Ring a real siren light from your AI agent: spin it, play a sound, set the volume, mute it.",
-            "version": "1.0.0",
-            "categorie": "entreprises_registres",
-            "depot": "https://github.com/thinkmojo/gumball-mcp",
-            "site": "https://getgumball.com/ai-agents/",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://app.getgumball.com/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-14",
-            "mis_a_jour_le": "2026-11-14"
-        },
-        {
-            "nom": "io.github.trademarkiq/trademarkiq",
-            "titre": "TrademarkIQ",
-            "description": "Marcas, patentes e desenhos do INPI e do mundo / INPI and worldwide trademarks, patents, designs",
-            "version": "1.0.3",
-            "categorie": "entreprises_registres",
-            "depot": "https://github.com/trademarkiq/trademarkiq-plugin",
-            "site": "https://trademarkiq.com.br",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://mcp.trademarkiq.com.br"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-12",
-            "mis_a_jour_le": "2026-11-12"
         },
         {
             "nom": "io.github.tresor4k/creavores-aeo-mcp",
@@ -6118,24 +5592,6 @@
             ],
             "publie_le": "2026-10-20",
             "mis_a_jour_le": "2026-10-20"
-        },
-        {
-            "nom": "io.github.yoavhizkiH/siren",
-            "titre": null,
-            "description": "MCP server for Siren diagramming — teach AI models to create beautiful diagrams with Siren syntax",
-            "version": "0.1.0",
-            "categorie": "entreprises_registres",
-            "depot": "https://github.com/yoavhizkiH/siren",
-            "site": null,
-            "distant": [],
-            "paquets": [
-                {
-                    "registre": "npm",
-                    "identifiant": "siren-mcp"
-                }
-            ],
-            "publie_le": "2026-07-19",
-            "mis_a_jour_le": "2026-07-19"
         },
         {
             "nom": "io.github.zekinht0/vigilix-mcp",
@@ -6260,42 +5716,6 @@
                     "identifiant": "@veriport/mcp"
                 }
             ],
-            "publie_le": "2026-11-12",
-            "mis_a_jour_le": "2026-11-12"
-        },
-        {
-            "nom": "jp.aluzza/wages-risk",
-            "titre": "Yamagishi Sync Lab: wages and business risks",
-            "description": "Same-job hourly wages in Japan, US, UK, Germany, France; ranks of 31 business risks, Japan vs US.",
-            "version": "0.1.1",
-            "categorie": "emploi_social",
-            "depot": null,
-            "site": "https://www.aluzza.jp/mcp-info/",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://www.aluzza.jp/mcp/"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-10-25",
-            "mis_a_jour_le": "2026-10-25"
-        },
-        {
-            "nom": "ma.madda/law",
-            "titre": "madda — Moroccan law, article by article",
-            "description": "Search and read Moroccan law article by article, in Arabic and French, with citations and PDFs.",
-            "version": "1.0.0",
-            "categorie": "juridique_administration",
-            "depot": null,
-            "site": "https://madda.ma",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://madda.ma/mcp"
-                }
-            ],
-            "paquets": [],
             "publie_le": "2026-11-12",
             "mis_a_jour_le": "2026-11-12"
         },
@@ -6534,42 +5954,6 @@
             "mis_a_jour_le": "2026-10-16"
         },
         {
-            "nom": "si.findadoctor.api/us-doctor-finder",
-            "titre": "FindADoctor.si",
-            "description": "Find US, New Zealand and France doctors by condition, procedure or place, with sources. No sign-up.",
-            "version": "2026-10-16.1",
-            "categorie": "autre",
-            "depot": null,
-            "site": "https://findadoctor.si/",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://api.findadoctor.si/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-10-16",
-            "mis_a_jour_le": "2026-10-16"
-        },
-        {
-            "nom": "tn.qanun/qanun-mcp",
-            "titre": "Qanun: Tunisian law",
-            "description": "Search Tunisian law and JORT announcements in Arabic and French, with article and JORT citations.",
-            "version": "1.0.0",
-            "categorie": "juridique_administration",
-            "depot": null,
-            "site": "https://qanun.tn",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://qanun.tn/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-05",
-            "mis_a_jour_le": "2026-11-05"
-        },
-        {
             "nom": "vote.andre/elections",
             "titre": "André — Analyse électorale française",
             "description": "Résultats des élections françaises 1999-2026 par bureau de vote, socio-démo INSEE et cartes.",
@@ -6586,24 +5970,6 @@
             "paquets": [],
             "publie_le": "2026-07-25",
             "mis_a_jour_le": "2026-07-25"
-        },
-        {
-            "nom": "work.finder/jobs",
-            "titre": "Finder Jobs",
-            "description": "Live job vacancies and salary stats: Russia, Belarus, Kazakhstan, Germany, France and more.",
-            "version": "1.2.0",
-            "categorie": "emploi_social",
-            "depot": null,
-            "site": "https://mcp.finder.work/",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://mcp.finder.work/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-10-17",
-            "mis_a_jour_le": "2026-10-17"
         },
         {
             "nom": "world.pionra/pionra",

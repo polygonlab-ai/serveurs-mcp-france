@@ -356,3 +356,39 @@
 2026-11-14;entree;work.finder/jobs;emploi_social;Emploi et social
 2026-11-14;entree;world.pionra/pionra;emploi_social;Emploi et social
 2026-11-14;ecarte;fr.suxession/suxession;fiscalite_facturation;écarté : adresse IPv4 (champ « version »)
+2026-11-14;nouvelle_version;io.github.Nutshell2000/agent-data-tools-company-check;entreprises_registres;1.177.0 -> 1.179.0
+2026-11-14;sortie;ai.mysiren/siren;entreprises_registres;liste d'exclusion : Homonyme : sans lien avec la France
+2026-11-14;sortie;ch.geneversleep/events;autre;liste d'exclusion : Autre pays francophone : lien par la langue seulement
+2026-11-14;sortie;com.furrsati/mcp;autre;liste d'exclusion : Autre pays francophone : lien par la langue seulement
+2026-11-14;sortie;com.hornlib/mcp;autre;liste d'exclusion : Homonyme : sans lien avec la France
+2026-11-14;sortie;com.moorishtimes/moorish-times;autre;liste d'exclusion : Autre pays francophone : lien par la langue seulement
+2026-11-14;sortie;com.mywedpaper/wedding-tools;autre;liste d'exclusion : Lien par la langue seulement
+2026-11-14;sortie;com.pawmultiverse/recalls;autre;liste d'exclusion : France citée parmi d'autres pays, service centré ailleurs
+2026-11-14;sortie;io.github.ValmoDev/joomil;commerce_paiement;liste d'exclusion : Autre pays francophone : lien par la langue seulement
+2026-11-14;sortie;io.github.afredenslund/fredenslund-workshop-tools;autre;liste d'exclusion : Homonyme : sans lien avec la France
+2026-11-14;sortie;io.github.asheeran/canada-weather;autre;liste d'exclusion : Autre pays francophone : lien par la langue seulement
+2026-11-14;sortie;io.github.gaelasao/building-permits-api;autre;liste d'exclusion : France citée parmi d'autres pays, service centré ailleurs
+2026-11-14;sortie;io.github.iangcarroll/restaurant-health;sante;liste d'exclusion : France citée parmi d'autres pays, service centré ailleurs
+2026-11-14;sortie;io.github.itsryanarmani/french4pr;autre;liste d'exclusion : Autre pays francophone : lien par la langue seulement
+2026-11-14;sortie;io.github.jmshinhwa/i18n-fr-ca-bill96-lint;autre;liste d'exclusion : Autre pays francophone : lien par la langue seulement
+2026-11-14;sortie;io.github.maximepeabody/fabling;autre;liste d'exclusion : Lien par la langue seulement
+2026-11-14;sortie;io.github.mcp-dir/inpi-mcp;entreprises_registres;liste d'exclusion : INPI brésilien, pas l'INPI français
+2026-11-14;sortie;io.github.mcp-dir/inpi_marcas-mcp;entreprises_registres;liste d'exclusion : INPI brésilien, pas l'INPI français
+2026-11-14;sortie;io.github.mcp-dir/inpi_marcas_processo-mcp;entreprises_registres;liste d'exclusion : INPI brésilien, pas l'INPI français
+2026-11-14;sortie;io.github.mcp-dir/inpi_marcas_processo_resumida-mcp;entreprises_registres;liste d'exclusion : INPI brésilien, pas l'INPI français
+2026-11-14;sortie;io.github.mcp-dir/inpi_marcas_titular-mcp;entreprises_registres;liste d'exclusion : INPI brésilien, pas l'INPI français
+2026-11-14;sortie;io.github.mcp-dir/inpi_patentes-mcp;entreprises_registres;liste d'exclusion : INPI brésilien, pas l'INPI français
+2026-11-14;sortie;io.github.pandadad0214/panda-leads-tools;autre;liste d'exclusion : France citée parmi d'autres pays, service centré ailleurs
+2026-11-14;sortie;io.github.paulovitorti/inpi-trademark-watch;entreprises_registres;liste d'exclusion : INPI brésilien, pas l'INPI français
+2026-11-14;sortie;io.github.paulovitorti/rpi-inpi-delta-monitor-marcas;entreprises_registres;liste d'exclusion : INPI brésilien, pas l'INPI français
+2026-11-14;sortie;io.github.physics-star-cat/databutler-vehicles;autre;liste d'exclusion : France citée parmi d'autres pays, service centré ailleurs
+2026-11-14;sortie;io.github.pooriaarab/french4pr;autre;liste d'exclusion : Autre pays francophone : lien par la langue seulement
+2026-11-14;sortie;io.github.smeet666/mcp-recipes;autre;liste d'exclusion : Lien par la langue seulement
+2026-11-14;sortie;io.github.thinkmojo/gumball;entreprises_registres;liste d'exclusion : Homonyme : sans lien avec la France
+2026-11-14;sortie;io.github.trademarkiq/trademarkiq;entreprises_registres;liste d'exclusion : INPI brésilien, pas l'INPI français
+2026-11-14;sortie;io.github.yoavhizkiH/siren;entreprises_registres;liste d'exclusion : Homonyme : sans lien avec la France
+2026-11-14;sortie;jp.aluzza/wages-risk;emploi_social;liste d'exclusion : France citée parmi d'autres pays, service centré ailleurs
+2026-11-14;sortie;ma.madda/law;juridique_administration;liste d'exclusion : Autre pays francophone : lien par la langue seulement
+2026-11-14;sortie;si.findadoctor.api/us-doctor-finder;autre;liste d'exclusion : France citée parmi d'autres pays, service centré ailleurs
+2026-11-14;sortie;tn.qanun/qanun-mcp;juridique_administration;liste d'exclusion : Autre pays francophone : lien par la langue seulement
+2026-11-14;sortie;work.finder/jobs;emploi_social;liste d'exclusion : France citée parmi d'autres pays, service centré ailleurs
