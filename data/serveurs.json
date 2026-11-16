@@ -1,19 +1,19 @@
 {
     "source": "Registre MCP officiel, registry.modelcontextprotocol.io",
     "page": "https://registry.modelcontextprotocol.io",
-    "date_source": "2026-11-14",
-    "nombre": 321,
+    "date_source": "2026-11-16",
+    "nombre": 329,
     "nombres": {
-        "entreprises_registres": 43,
-        "emploi_social": 19,
+        "entreprises_registres": 44,
+        "emploi_social": 20,
         "sante": 4,
-        "juridique_administration": 24,
+        "juridique_administration": 25,
         "fiscalite_facturation": 39,
         "transport_mobilite": 9,
         "geographie_territoire": 12,
-        "donnees_publiques": 12,
-        "commerce_paiement": 34,
-        "autre": 125
+        "donnees_publiques": 13,
+        "commerce_paiement": 36,
+        "autre": 127
     },
     "serveurs": [
         {
@@ -344,7 +344,7 @@
             "nom": "com.altoviz/mcp",
             "titre": "Altoviz MCP Server",
             "description": "Altoviz invoicing app for french small businesses",
-            "version": "1.0.8",
+            "version": "1.0.10",
             "categorie": "fiscalite_facturation",
             "depot": null,
             "site": "https://mcp.altoviz.com",
@@ -355,8 +355,8 @@
                 }
             ],
             "paquets": [],
-            "publie_le": "2026-11-13",
-            "mis_a_jour_le": "2026-11-13"
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
         },
         {
             "nom": "com.anglinglines/angling-lines",
@@ -1158,9 +1158,9 @@
             "nom": "com.super-webmaster/seo",
             "titre": "Super Webmaster",
             "description": "Free SEO and GEO audit of any public website: scores out of 100, fixes ranked by gain. In French.",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "categorie": "autre",
-            "depot": null,
+            "depot": "https://github.com/pierrebillard/super-webmaster-mcp",
             "site": "https://super-webmaster.com/mcp-seo.php",
             "distant": [
                 {
@@ -1169,8 +1169,8 @@
                 }
             ],
             "paquets": [],
-            "publie_le": "2026-11-13",
-            "mis_a_jour_le": "2026-11-13"
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
         },
         {
             "nom": "com.tally-stick/tallystick",
@@ -1640,6 +1640,96 @@
             "mis_a_jour_le": "2026-03-26"
         },
         {
+            "nom": "fr.amacunia/bodacc-creditor-opposition-deadline",
+            "titre": "BODACC Creditor Opposition Deadline Sentinel (France)",
+            "description": "Was a French business sold or merged (BODACC), and until when can its creditors object?",
+            "version": "0.2.1",
+            "categorie": "autre",
+            "depot": "https://github.com/Marcoco27/sentinelle-oppositions-mcp",
+            "site": "https://oppositions.amacunia.fr/",
+            "distant": [
+                {
+                    "type": "streamable-http",
+                    "url": "https://oppositions.amacunia.fr/mcp"
+                }
+            ],
+            "paquets": [],
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
+        },
+        {
+            "nom": "fr.amacunia/bodacc-insolvency-claim-deadline",
+            "titre": "BODACC Insolvency Claim Deadline Sentinel (France)",
+            "description": "Is a French company in insolvency (BODACC), and until when can a creditor file its claim?",
+            "version": "0.3.0",
+            "categorie": "entreprises_registres",
+            "depot": "https://github.com/Marcoco27/sentinelle-creances-mcp",
+            "site": "https://creances.amacunia.fr/",
+            "distant": [
+                {
+                    "type": "streamable-http",
+                    "url": "https://creances.amacunia.fr/mcp"
+                }
+            ],
+            "paquets": [],
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
+        },
+        {
+            "nom": "fr.amacunia/france-catnat-natural-disaster-claim-deadline",
+            "titre": "France CatNat Natural Disaster Claim Deadline Sentinel",
+            "description": "Is a French commune under a CatNat natural-disaster decree, and until when can claims be filed?",
+            "version": "0.4.0",
+            "categorie": "geographie_territoire",
+            "depot": null,
+            "site": "https://catnat.amacunia.fr/",
+            "distant": [
+                {
+                    "type": "streamable-http",
+                    "url": "https://catnat.amacunia.fr/mcp"
+                }
+            ],
+            "paquets": [],
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
+        },
+        {
+            "nom": "fr.amacunia/france-condominium-syndic-mandate-end",
+            "titre": "France Condominium Syndic Mandate End Sentinel",
+            "description": "Who is a French condominium's syndic, and when does its mandate end? By condo or by area.",
+            "version": "0.1.2",
+            "categorie": "autre",
+            "depot": "https://github.com/Marcoco27/sentinelle-syndic-mcp",
+            "site": "https://syndic.amacunia.fr/",
+            "distant": [
+                {
+                    "type": "streamable-http",
+                    "url": "https://syndic.amacunia.fr/mcp"
+                }
+            ],
+            "paquets": [],
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
+        },
+        {
+            "nom": "fr.amacunia/france-phyto-pesticide-grace-period",
+            "titre": "France Pesticide Grace Period Sentinel",
+            "description": "Is a French pesticide (Anses E-Phy) still sellable or usable, and until when?",
+            "version": "0.2.1",
+            "categorie": "autre",
+            "depot": "https://github.com/Marcoco27/sentinelle-phyto-mcp",
+            "site": "https://phyto.amacunia.fr/",
+            "distant": [
+                {
+                    "type": "streamable-http",
+                    "url": "https://phyto.amacunia.fr/mcp"
+                }
+            ],
+            "paquets": [],
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
+        },
+        {
             "nom": "fr.apparais.www/apparais",
             "titre": "Apparais",
             "description": "Les commerces locaux que ChatGPT recommande en France, par métier et par ville. Test gratuit.",
@@ -1913,6 +2003,24 @@
             "paquets": [],
             "publie_le": "2026-11-02",
             "mis_a_jour_le": "2026-11-02"
+        },
+        {
+            "nom": "fr.checkers/entreprises",
+            "titre": "checkers.fr — entreprises françaises",
+            "description": "Entreprises françaises : SIREN, dirigeants, comptes, BODACC, statuts PDF. API compatible Pappers.",
+            "version": "1.0.0",
+            "categorie": "entreprises_registres",
+            "depot": null,
+            "site": null,
+            "distant": [
+                {
+                    "type": "streamable-http",
+                    "url": "https://checkers.fr/mcp"
+                }
+            ],
+            "paquets": [],
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
         },
         {
             "nom": "fr.citexact/citexact",
@@ -2219,6 +2327,24 @@
             "paquets": [],
             "publie_le": "2026-09-08",
             "mis_a_jour_le": "2026-09-08"
+        },
+        {
+            "nom": "fr.francestack/tax-payroll",
+            "titre": "FranceStack Tax & Payroll",
+            "description": "French tax, salary, URSSAF, severance, unemployment benefit; free questions if info missing (x402)",
+            "version": "0.8.0",
+            "categorie": "emploi_social",
+            "depot": null,
+            "site": "https://tax.francestack.fr",
+            "distant": [
+                {
+                    "type": "streamable-http",
+                    "url": "https://tax.francestack.fr/mcp"
+                }
+            ],
+            "paquets": [],
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
         },
         {
             "nom": "fr.fridgebase/frigos",
@@ -2851,6 +2977,24 @@
             "mis_a_jour_le": "2026-10-27"
         },
         {
+            "nom": "fr.pausila/mcp",
+            "titre": "Pausila",
+            "description": "Praticiens de bien-être corporel en France : recherche, prix, créneaux libres, avis. Lecture seule.",
+            "version": "0.6.0",
+            "categorie": "commerce_paiement",
+            "depot": null,
+            "site": "https://pausila.fr/connect",
+            "distant": [
+                {
+                    "type": "streamable-http",
+                    "url": "https://pausila.fr/mcp"
+                }
+            ],
+            "paquets": [],
+            "publie_le": "2026-11-14",
+            "mis_a_jour_le": "2026-11-14"
+        },
+        {
             "nom": "fr.petitpapasecret/petitpapasecret",
             "titre": "Petit Papa Secret",
             "description": "Tirage au sort Secret Santa en français, sans compte : un lien privé par participant.",
@@ -3471,7 +3615,7 @@
             "nom": "io.github.AnshumanAtrey/welcome-to-the-jungle-jobs-search",
             "titre": "Welcome to the Jungle Jobs Scraper & API - Otta, WTTJ, Salary",
             "description": "Welcome to the Jungle Jobs Scraper - France & Europe",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "categorie": "emploi_social",
             "depot": "https://github.com/AnshumanAtrey/welcome-to-the-jungle-jobs-search",
             "site": "https://apify.com/anshumanatrey/welcome-to-the-jungle-jobs-search",
@@ -3482,8 +3626,8 @@
                 }
             ],
             "paquets": [],
-            "publie_le": "2026-11-13",
-            "mis_a_jour_le": "2026-11-13"
+            "publie_le": "2026-11-16",
+            "mis_a_jour_le": "2026-11-16"
         },
         {
             "nom": "io.github.Anteos-Health/anteos-booking",
@@ -3682,7 +3826,7 @@
             "nom": "io.github.IDNSIDNS/tenderapi-mcp",
             "titre": "TenderAPI — French & EU public tenders",
             "description": "MCP server for French (BOAMP) + EU (TED) public procurement data via TenderAPI.",
-            "version": "0.10.1",
+            "version": "0.10.2",
             "categorie": "autre",
             "depot": "https://github.com/IDNSIDNS/tenderapi-mcp",
             "site": "https://tenderapi.fr/",
@@ -3698,8 +3842,8 @@
                     "identifiant": "tenderapi-mcp"
                 }
             ],
-            "publie_le": "2026-11-13",
-            "mis_a_jour_le": "2026-11-13"
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
         },
         {
             "nom": "io.github.JoJoLaBagarre/france-travail-mcp",
@@ -3810,94 +3954,22 @@
             "mis_a_jour_le": "2026-07-07"
         },
         {
-            "nom": "io.github.Marcoco27/sentinelle-catnat",
-            "titre": "Sentinelle catnat FR",
-            "description": "French natural-disaster decrees (CatNat) per commune, with the open insurance-claim deadline.",
-            "version": "0.2.0",
-            "categorie": "geographie_territoire",
+            "nom": "io.github.Marc-AntoinePujol/vantro",
+            "titre": "Vantro",
+            "description": "Commerce for AI agents: buy tools and French business data with spend limits and refunds.",
+            "version": "0.3.0",
+            "categorie": "commerce_paiement",
             "depot": null,
-            "site": "https://catnat.amacunia.fr/",
+            "site": "https://vantro-w74t.onrender.com",
             "distant": [
                 {
                     "type": "streamable-http",
-                    "url": "https://catnat.amacunia.fr/mcp"
+                    "url": "https://vantro-w74t.onrender.com/mcp"
                 }
             ],
             "paquets": [],
-            "publie_le": "2026-11-08",
-            "mis_a_jour_le": "2026-11-08"
-        },
-        {
-            "nom": "io.github.Marcoco27/sentinelle-creances",
-            "titre": "Sentinelle créances FR",
-            "description": "French insolvency notices (BODACC) per company, with the creditor claim filing deadline.",
-            "version": "0.1.1",
-            "categorie": "entreprises_registres",
-            "depot": "https://github.com/Marcoco27/sentinelle-creances-mcp",
-            "site": "https://creances.amacunia.fr/",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://creances.amacunia.fr/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-08",
-            "mis_a_jour_le": "2026-11-08"
-        },
-        {
-            "nom": "io.github.Marcoco27/sentinelle-oppositions",
-            "titre": "Sentinelle oppositions FR",
-            "description": "French business sales and mergers (BODACC) per debtor, with the creditor objection deadline.",
-            "version": "0.1.0",
-            "categorie": "autre",
-            "depot": "https://github.com/Marcoco27/sentinelle-oppositions-mcp",
-            "site": "https://oppositions.amacunia.fr/",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://oppositions.amacunia.fr/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-10",
-            "mis_a_jour_le": "2026-11-10"
-        },
-        {
-            "nom": "io.github.Marcoco27/sentinelle-phyto",
-            "titre": "Sentinelle phyto FR",
-            "description": "French pesticide register (Anses E-Phy): still sellable or usable, and until when.",
-            "version": "0.1.0",
-            "categorie": "autre",
-            "depot": "https://github.com/Marcoco27/sentinelle-phyto-mcp",
-            "site": "https://phyto.amacunia.fr/",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://phyto.amacunia.fr/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-10",
-            "mis_a_jour_le": "2026-11-10"
-        },
-        {
-            "nom": "io.github.Marcoco27/sentinelle-syndic",
-            "titre": "Sentinelle syndic FR",
-            "description": "French condominium registry: current syndic and mandate end date, by condo or by area.",
-            "version": "0.1.0",
-            "categorie": "autre",
-            "depot": "https://github.com/Marcoco27/sentinelle-syndic-mcp",
-            "site": "https://syndic.amacunia.fr/",
-            "distant": [
-                {
-                    "type": "streamable-http",
-                    "url": "https://syndic.amacunia.fr/mcp"
-                }
-            ],
-            "paquets": [],
-            "publie_le": "2026-11-10",
-            "mis_a_jour_le": "2026-11-10"
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
         },
         {
             "nom": "io.github.NormiHQ/normi",
@@ -3925,8 +3997,8 @@
         {
             "nom": "io.github.Nutshell2000/agent-data-tools-company-check",
             "titre": "Agent Data Tools: Company and VAT check",
-            "description": "8 tools: EU VAT (VIES), Nordic and French company registers, LEI and OFAC sanctions checks.",
-            "version": "1.179.0",
+            "description": "10 tools: EU VAT (VIES), Nordic and French company registers, LEI and OFAC sanctions checks.",
+            "version": "1.204.0",
             "categorie": "entreprises_registres",
             "depot": "https://github.com/Nutshell2000/agent-data-tools",
             "site": "https://agent-data-tools.revmesh2074.workers.dev/",
@@ -3937,8 +4009,8 @@
                 }
             ],
             "paquets": [],
-            "publie_le": "2026-11-14",
-            "mis_a_jour_le": "2026-11-14"
+            "publie_le": "2026-11-16",
+            "mis_a_jour_le": "2026-11-16"
         },
         {
             "nom": "io.github.OlivierLAVAUD/mcp-immo",
@@ -4581,19 +4653,19 @@
             "nom": "io.github.manganate006/openlmnp",
             "titre": "OpenLMNP",
             "description": "Accounting MCP for French LMNP furnished rentals: income, expenses, depreciation, tax return & FEC",
-            "version": "1.6.7",
+            "version": "2.0.1",
             "categorie": "fiscalite_facturation",
             "depot": "https://github.com/manganate006/openlmnp",
             "site": "https://openlmnp.fr/mcp",
             "distant": [
                 {
                     "type": "streamable-http",
-                    "url": "https://app.openlmnp.fr/mcp?demo_token=openlmnp_demo_ro_ebd891f45e8a771ca1a718f239b733b438a31d48"
+                    "url": "https://app.openlmnp.fr/mcp"
                 }
             ],
             "paquets": [],
-            "publie_le": "2026-09-22",
-            "mis_a_jour_le": "2026-09-22"
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
         },
         {
             "nom": "io.github.matematicsolutions/fr-eli-mcp",
@@ -4761,7 +4833,7 @@
             "nom": "io.github.muchiny/mcp-legifrance",
             "titre": "Légifrance (unofficial)",
             "description": "Unofficial MCP server for French law via the Légifrance API (PISTE): search, read and cite texts.",
-            "version": "1.1.1",
+            "version": "1.3.1",
             "categorie": "juridique_administration",
             "depot": "https://github.com/muchiny/mcp-legifrance",
             "site": "https://github.com/muchiny/mcp-legifrance#readme",
@@ -4769,15 +4841,15 @@
             "paquets": [
                 {
                     "registre": "mcpb",
-                    "identifiant": "https://github.com/muchiny/mcp-legifrance/releases/download/v1.1.1/mcp-legifrance-1.1.1.mcpb"
+                    "identifiant": "https://github.com/muchiny/mcp-legifrance/releases/download/v1.3.1/mcp-legifrance-1.3.1.mcpb"
                 },
                 {
                     "registre": "oci",
-                    "identifiant": "ghcr.io/muchiny/mcp-legifrance:1.1.1"
+                    "identifiant": "ghcr.io/muchiny/mcp-legifrance:1.3.1"
                 }
             ],
-            "publie_le": "2026-11-13",
-            "mis_a_jour_le": "2026-11-13"
+            "publie_le": "2026-11-16",
+            "mis_a_jour_le": "2026-11-16"
         },
         {
             "nom": "io.github.naimterrache-a11y/frigolog-haccp",
@@ -4814,6 +4886,24 @@
             "paquets": [],
             "publie_le": "2026-10-11",
             "mis_a_jour_le": "2026-10-11"
+        },
+        {
+            "nom": "io.github.neat-cyber/agent-signals",
+            "titre": "Agent Signals — Public Tender Search",
+            "description": "Search sourced French public procurement notices from official BOAMP open data.",
+            "version": "0.1.0",
+            "categorie": "donnees_publiques",
+            "depot": null,
+            "site": null,
+            "distant": [
+                {
+                    "type": "streamable-http",
+                    "url": "https://agent-signals.saromy-export.workers.dev/mcp"
+                }
+            ],
+            "paquets": [],
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
         },
         {
             "nom": "io.github.nicolasfichaux1-blip/french-legal-mcp",
@@ -5059,6 +5149,29 @@
             "mis_a_jour_le": "2026-11-01"
         },
         {
+            "nom": "io.github.pipeworx-io/fr-decp",
+            "titre": "Fr Decp",
+            "description": "France DECP MCP — French public-contract AWARD data (keyless).",
+            "version": "0.1.0",
+            "categorie": "autre",
+            "depot": "https://github.com/pipeworx-io/mcp-fr-decp",
+            "site": "https://pipeworx.io/packs/fr-decp",
+            "distant": [
+                {
+                    "type": "streamable-http",
+                    "url": "https://gateway.pipeworx.io/fr-decp/mcp"
+                }
+            ],
+            "paquets": [
+                {
+                    "registre": "npm",
+                    "identifiant": "@pipeworx/mcp-fr-decp"
+                }
+            ],
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
+        },
+        {
             "nom": "io.github.pipeworx-io/fr-judilibre",
             "titre": "Fr Judilibre",
             "description": "French court decisions (Cour de cassation and the judicial courts under it) — search, read a…",
@@ -5080,6 +5193,29 @@
             ],
             "publie_le": "2026-11-02",
             "mis_a_jour_le": "2026-11-02"
+        },
+        {
+            "nom": "io.github.pipeworx-io/fr-legifrance",
+            "titre": "Fr Legifrance",
+            "description": "France's Légifrance API via the state's PISTE gateway — the parts @pipeworx/france-legi does NOT…",
+            "version": "0.1.0",
+            "categorie": "juridique_administration",
+            "depot": "https://github.com/pipeworx-io/mcp-fr-legifrance",
+            "site": "https://pipeworx.io/packs/fr-legifrance",
+            "distant": [
+                {
+                    "type": "streamable-http",
+                    "url": "https://gateway.pipeworx.io/fr-legifrance/mcp"
+                }
+            ],
+            "paquets": [
+                {
+                    "registre": "npm",
+                    "identifiant": "@pipeworx/mcp-fr-legifrance"
+                }
+            ],
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
         },
         {
             "nom": "io.github.pipeworx-io/france-bdpm-medicines",
@@ -5718,6 +5854,24 @@
             ],
             "publie_le": "2026-11-12",
             "mis_a_jour_le": "2026-11-12"
+        },
+        {
+            "nom": "me.zeroproble/calculs-bailleur",
+            "titre": "Zéro problème : calculs du bailleur en France",
+            "description": "Calculs du bailleur en France : IRL, interdiction DPE, plus-value LMNP, dépôt, frais de notaire.",
+            "version": "1.0.1",
+            "categorie": "autre",
+            "depot": null,
+            "site": "https://zeroproble.me/fr/calculateurs",
+            "distant": [
+                {
+                    "type": "streamable-http",
+                    "url": "https://zeroproble.me/api/mcp"
+                }
+            ],
+            "paquets": [],
+            "publie_le": "2026-11-15",
+            "mis_a_jour_le": "2026-11-15"
         },
         {
             "nom": "ms.awesomefor/forms",

@@ -7,6 +7,104 @@ publiée automatiquement.
 Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/) et le projet respecte
 le [versionnage sémantique](https://semver.org/lang/fr/).
 
+## [0.1.2] - 2026-11-16 - Registre du 16/11/2026 : 13 entrées, 5 sorties, 7 nouvelles versions, 7 autres modifications
+
+### Entrées
+
+- fr.amacunia/bodacc-creditor-opposition-deadline (Autre)
+- fr.amacunia/bodacc-insolvency-claim-deadline (Entreprises et registres)
+- fr.amacunia/france-catnat-natural-disaster-claim-deadline (Géographie et territoire)
+- fr.amacunia/france-condominium-syndic-mandate-end (Autre)
+- fr.amacunia/france-phyto-pesticide-grace-period (Autre)
+- fr.checkers/entreprises (Entreprises et registres)
+- fr.francestack/tax-payroll (Emploi et social)
+- fr.pausila/mcp (Commerce et paiement)
+- io.github.Marc-AntoinePujol/vantro (Commerce et paiement)
+- io.github.neat-cyber/agent-signals (Données publiques)
+- io.github.pipeworx-io/fr-decp (Autre)
+- io.github.pipeworx-io/fr-legifrance (Juridique et administration)
+- me.zeroproble/calculs-bailleur (Autre)
+
+### Sorties
+
+- io.github.Marcoco27/sentinelle-catnat : absent du registre, plus actif ou sans mot-clé
+- io.github.Marcoco27/sentinelle-creances : absent du registre, plus actif ou sans mot-clé
+- io.github.Marcoco27/sentinelle-oppositions : absent du registre, plus actif ou sans mot-clé
+- io.github.Marcoco27/sentinelle-phyto : absent du registre, plus actif ou sans mot-clé
+- io.github.Marcoco27/sentinelle-syndic : absent du registre, plus actif ou sans mot-clé
+
+### Nouvelles versions
+
+- com.altoviz/mcp : 1.0.8 -> 1.0.10
+- com.super-webmaster/seo : 1.2.0 -> 1.2.1
+- io.github.AnshumanAtrey/welcome-to-the-jungle-jobs-search : 1.0.10 -> 1.0.11
+- io.github.IDNSIDNS/tenderapi-mcp : 0.10.1 -> 0.10.2
+- io.github.Nutshell2000/agent-data-tools-company-check : 1.179.0 -> 1.204.0
+- io.github.manganate006/openlmnp : 1.6.7 -> 2.0.1
+- io.github.muchiny/mcp-legifrance : 1.1.1 -> 1.3.1
+
+### Autres modifications
+
+- com.altoviz/mcp : publie_le, mis_a_jour_le
+- com.super-webmaster/seo : depot, publie_le, mis_a_jour_le
+- io.github.AnshumanAtrey/welcome-to-the-jungle-jobs-search : publie_le, mis_a_jour_le
+- io.github.IDNSIDNS/tenderapi-mcp : publie_le, mis_a_jour_le
+- io.github.Nutshell2000/agent-data-tools-company-check : description, publie_le, mis_a_jour_le
+- io.github.manganate006/openlmnp : distant, publie_le, mis_a_jour_le
+- io.github.muchiny/mcp-legifrance : paquets, publie_le, mis_a_jour_le
+
+### Remarques
+
+- Exclu (liste d'exclusion) : ai.mysiren/siren — Homonyme : sans lien avec la France
+- Exclu (liste d'exclusion) : ch.geneversleep/events — Autre pays francophone : lien par la langue seulement
+- Exclu (liste d'exclusion) : com.furrsati/mcp — Autre pays francophone : lien par la langue seulement
+- Exclu (liste d'exclusion) : com.hornlib/mcp — Homonyme : sans lien avec la France
+- Exclu (liste d'exclusion) : com.moorishtimes/moorish-times — Autre pays francophone : lien par la langue seulement
+- Exclu (liste d'exclusion) : com.mywedpaper/wedding-tools — Lien par la langue seulement
+- Exclu (liste d'exclusion) : com.pawmultiverse/recalls — France citée parmi d'autres pays, service centré ailleurs
+- Exclu (liste d'exclusion) : io.github.ValmoDev/joomil — Autre pays francophone : lien par la langue seulement
+- Exclu (liste d'exclusion) : io.github.afredenslund/fredenslund-workshop-tools — Homonyme : sans lien avec la France
+- Exclu (liste d'exclusion) : io.github.asheeran/canada-weather — Autre pays francophone : lien par la langue seulement
+- Exclu (liste d'exclusion) : io.github.gaelasao/building-permits-api — France citée parmi d'autres pays, service centré ailleurs
+- Exclu (liste d'exclusion) : io.github.iangcarroll/restaurant-health — France citée parmi d'autres pays, service centré ailleurs
+- Exclu (liste d'exclusion) : io.github.itsryanarmani/french4pr — Autre pays francophone : lien par la langue seulement
+- Exclu (liste d'exclusion) : io.github.jmshinhwa/i18n-fr-ca-bill96-lint — Autre pays francophone : lien par la langue seulement
+- Exclu (liste d'exclusion) : io.github.maximepeabody/fabling — Lien par la langue seulement
+- Exclu (liste d'exclusion) : io.github.mcp-dir/inpi-mcp — INPI brésilien, pas l'INPI français
+- Exclu (liste d'exclusion) : io.github.mcp-dir/inpi_marcas-mcp — INPI brésilien, pas l'INPI français
+- Exclu (liste d'exclusion) : io.github.mcp-dir/inpi_marcas_processo-mcp — INPI brésilien, pas l'INPI français
+- Exclu (liste d'exclusion) : io.github.mcp-dir/inpi_marcas_processo_resumida-mcp — INPI brésilien, pas l'INPI français
+- Exclu (liste d'exclusion) : io.github.mcp-dir/inpi_marcas_titular-mcp — INPI brésilien, pas l'INPI français
+- Exclu (liste d'exclusion) : io.github.mcp-dir/inpi_patentes-mcp — INPI brésilien, pas l'INPI français
+- Exclu (liste d'exclusion) : io.github.pandadad0214/panda-leads-tools — France citée parmi d'autres pays, service centré ailleurs
+- Exclu (liste d'exclusion) : io.github.paulovitorti/inpi-trademark-watch — INPI brésilien, pas l'INPI français
+- Exclu (liste d'exclusion) : io.github.paulovitorti/rpi-inpi-delta-monitor-marcas — INPI brésilien, pas l'INPI français
+- Exclu (liste d'exclusion) : io.github.physics-star-cat/databutler-vehicles — France citée parmi d'autres pays, service centré ailleurs
+- Exclu (liste d'exclusion) : io.github.pooriaarab/french4pr — Autre pays francophone : lien par la langue seulement
+- Exclu (liste d'exclusion) : io.github.smeet666/mcp-recipes — Lien par la langue seulement
+- Exclu (liste d'exclusion) : io.github.thinkmojo/gumball — Homonyme : sans lien avec la France
+- Exclu (liste d'exclusion) : io.github.trademarkiq/trademarkiq — INPI brésilien, pas l'INPI français
+- Exclu (liste d'exclusion) : io.github.yoavhizkiH/siren — Homonyme : sans lien avec la France
+- Exclu (liste d'exclusion) : jp.aluzza/wages-risk — France citée parmi d'autres pays, service centré ailleurs
+- Exclu (liste d'exclusion) : ma.madda/law — Autre pays francophone : lien par la langue seulement
+- Exclu (liste d'exclusion) : si.findadoctor.api/us-doctor-finder — France citée parmi d'autres pays, service centré ailleurs
+- Exclu (liste d'exclusion) : tn.qanun/qanun-mcp — Autre pays francophone : lien par la langue seulement
+- Exclu (liste d'exclusion) : work.finder/jobs — France citée parmi d'autres pays, service centré ailleurs
+
+### Listes
+
+- Serveurs MCP liés à la France : 329 serveurs
+- Entreprises et registres : 44 serveurs
+- Emploi et social : 20 serveurs
+- Santé : 4 serveurs
+- Juridique et administration : 25 serveurs
+- Fiscalité et facturation : 39 serveurs
+- Transport et mobilité : 9 serveurs
+- Géographie et territoire : 12 serveurs
+- Données publiques : 13 serveurs
+- Commerce et paiement : 36 serveurs
+- Autre : 127 serveurs
+
 ## [0.1.1] - 2026-11-14 - Registre du 14/11/2026 : 35 sorties, 1 nouvelle version
 
 ### Sorties
@@ -117,6 +215,7 @@ le [versionnage sémantique](https://semver.org/lang/fr/).
 - Adresses e-mail retirées des descriptions ; serveurs écartés automatiquement si une valeur contient une adresse IPv4, une adresse e-mail hors description, un motif de clé d'API ou un mot interdit.
 - Liste factuelle : aucun serveur n'est testé ni recommandé.
 
+[0.1.2]: https://github.com/polygonlab-ai/serveurs-mcp-france/releases/tag/v0.1.2
 [0.1.1]: https://github.com/polygonlab-ai/serveurs-mcp-france/releases/tag/v0.1.1
 [0.1.0]: https://github.com/polygonlab-ai/serveurs-mcp-france/releases/tag/v0.1.0
 
