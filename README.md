@@ -45,14 +45,16 @@ Le registre est lu **chaque lundi** ; une nouvelle version est publiée dès que
 Tableau généré à chaque actualisation, à partir de `data/serveurs.json`.
 
 <!-- liste-serveurs:debut -->
-Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/serveurs.json`](data/serveurs.json).
+Liste du 23/11/2026 : 360 serveurs, 10 catégories. Fichier complet : [`data/serveurs.json`](data/serveurs.json).
 
-### Entreprises et registres (44)
+### Entreprises et registres (55)
 
 | Serveur | Description | Version | Liens |
 |---|---|---|---|
 | **profils.ai French company registry**<br>`ai.profils/registry` | Every active French company by SIREN: search, full fiche, and filed PDFs paid per fetch by agents. | 1.0.0 | [site](https://profils.ai/agents) |
+| **xomiadata open-data Actors (via official Apify MCP)**<br>`ai.xomia/xomiadata-apify-actors` | EU &amp; French tenders with AI summaries, company checks, product recalls - via official Apify MCP | 1.0.0 | [site](https://apify.com/xomiadata) |
 | **Vérif Entreprise FR**<br>`app.railway.up.api-production-24833/verif-entreprise-fr` | French company KYB (SIREN): status, insolvency, VAT, BODACC monitoring alerts. Free preview; x402. | 1.3.0 | [site](https://api-production-24833.up.railway.app) |
+| **Sera Studio**<br>`app.serastudio/sera-studio` | AI video studio: swap the cast with Siren, fix bad seconds, turn long videos into captioned shorts. | 1.0.0 | [site](https://serastudio.app/mcp) |
 | **TrustyData**<br>`app.trustydata/trustydata` | French address quality, geocoding, routing, company lookup &amp; catchment stats (BAN, INSEE, OSM). | 1.6.0 | [dépôt](https://github.com/htristram/trustydata-mcp-server) · [site](https://trustydata.fr) |
 | **304NotModified**<br>`com.304notfound/304notmodified` | Sourced answers on FR/EU rules + French company search (SIREN, NAF) for agents, quoted and budgeted | 0.4.0 | [site](https://304notfound.com) |
 | **VerifyDesk**<br>`com.agenttoolworks/verifydesk` | Verify French and UK companies, EU VAT and IBANs; screen OFAC, UN, EU and UK sanctions lists. | 1.2.0 | [dépôt](https://github.com/agenttoolworks/mcp-servers) · [site](https://agenttoolworks.com/servers/verifydesk) |
@@ -64,10 +66,13 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **Fuentio: UK, France &amp; Spain company data from official registries**<br>`com.fuentio/company-data` | Official UK, France and Spain company checks for AI agents | 1.1.0 | [dépôt](https://github.com/THEMAGNET-NICHEP-Lab/fuentio-mcp) · [site](https://fuentio.com) |
 | **MaFactureOK**<br>`com.mafactureok/mafactureok` | Vérifie une facture électronique (Factur-X, UBL, CII), un SIREN/SIRET, une TVA ; explique un rejet. | 1.1.0 | [site](https://mafactureok.com/serveur-mcp) |
 | `com.mambabuilt/mcp-new-company-registrations-feed` | Newly registered companies from UK, Norway, Finland, and France registers, one row per company. | 1.0.1 | [dépôt](https://github.com/mambalabsdev/mcp-new-company-registrations-feed) |
-| **Sirenic**<br>`eu.sirenic/sirenic` | Official French and European company data for AI agents, paid per call (x402) or by API key. | 1.1.0 | [site](https://api.sirenic.eu/) |
-| **BODACC Insolvency Claim Deadline Sentinel (France)**<br>`fr.amacunia/bodacc-insolvency-claim-deadline` | Is a French company in insolvency (BODACC), and until when can a creditor file its claim? | 0.3.0 | [dépôt](https://github.com/Marcoco27/sentinelle-creances-mcp) · [site](https://creances.amacunia.fr/) |
+| **PoleSocietes**<br>`com.polesocietes/api` | French company data: search by name or SIREN, legal details and annual financial statements. | 1.0.0 | [site](https://polesocietes.com/api-entreprises?utm_source=mcp_registry&utm_medium=referral&utm_campaign=mcp_registry_officiel) |
+| **Company Registry Search (Apify) by Dataset Works**<br>`dev.datasetworks/european-company-registry` | Official company registers of France, Norway and Finland: IDs, VAT, status, industry, address. | 1.0.1 | [site](https://datasetworks.dev/tools/european-company-registry/) |
+| **LeadsIt**<br>`eu.leadsit/leadsit` | Local B2B leads: live business searches with public emails and phones, plus the French company base. | 1.1.0 | [site](https://leadsit.eu/llm/) |
+| **Sirenic**<br>`eu.sirenic/sirenic` | Official French and European company data for AI agents, paid per call (x402) or by API key. | 1.2.1 | [dépôt](https://github.com/sirenic-eu/sirenic-mcp) · [site](https://api.sirenic.eu/?utm_source=annuaire&utm_campaign=mcp-registry) |
+| **BODACC Insolvency Claim Deadline Sentinel (France)**<br>`fr.amacunia/bodacc-insolvency-claim-deadline` | Is a French company in insolvency (BODACC), and until when can a creditor file its claim? | 0.5.1 | [dépôt](https://github.com/Marcoco27/sentinelle-creances-mcp) · [site](https://creances.amacunia.fr/) |
 | **auregistre**<br>`fr.auregistre/auregistre` | French companies: dated changes and insolvencies (BODACC), filed accounts by year (INPI). No key. | 0.1.1 | [site](https://auregistre.fr/api) |
-| **checkers.fr — entreprises françaises**<br>`fr.checkers/entreprises` | Entreprises françaises : SIREN, dirigeants, comptes, BODACC, statuts PDF. API compatible Pappers. | 1.0.0 |  |
+| **checkers.fr — entreprises françaises**<br>`fr.checkers/entreprises` | Entreprises françaises : SIREN, dirigeants, comptes, BODACC, statuts PDF. API compatible Pappers. | 1.1.0 | [site](https://checkers.fr/mcp-entreprises) |
 | **LegalOne Entreprises**<br>`fr.legalone/entreprises` | French company data from public registers (Sirene, RNE, BODACC) and French legal notices. | 0.1.1 | [dépôt](https://github.com/legalone-fr/entreprises) · [site](https://legalone.fr/developers) |
 | **Nogogo AI - French Company Reliability**<br>`fr.nogogo/nogogo-ai` | Check one French company by name or SIREN and get its Nogogo A-E reliability grade for free. | 1.1.0 | [site](https://nogogo.fr/integration) |
 | **Origami Entreprises**<br>`fr.origami-entreprises/origami` | French company data: financials, dirigeants, BODACC, INPI filings, PEP checks, alerts. | 1.0.0 | [site](https://origami-entreprises.fr/mcp/) |
@@ -75,28 +80,34 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **Registers**<br>`fr.registers/registers` | French public registers: companies (SIRENE, BODACC) and real estate (cadastre, DVF, DPE, risks). | 1.0.0 | [site](https://registers.fr) |
 | **socs.fr, la commande publique française**<br>`fr.socs/commande-publique` | French public procurement: open tenders from BOAMP, public buyers, and contracts won by a company. | 0.2.0 | [site](https://socs.fr/agents) |
 | **RealGeeks Company Registry**<br>`host.beacon.worker.realgeeks-company-api/company-registry` | Official company registers for France, Norway, Finland and US SEC: search by name or look up by ID. | 1.1.0 | [site](https://realgeeks-company-api.worker.beacon.host) |
+| **Cerfaless INPI**<br>`io.github.64Etienne/cerfaless-inpi` | Créer sa société (SAS, SASU, SARL, EURL) jusqu'au guichet unique de l'INPI, avec Claude ou ChatGPT. | 0.2.1 | [site](https://cerfaless.fr/inpi) |
 | **RNCP / RS — certifications professionnelles (France compétences)**<br>`io.github.ALDEBERTArnaud/mcp-rncp` | French RNCP/RS certification registers: search, sheets, blocs, validity, SIRET habilitation. | 0.1.4 | [dépôt](https://github.com/ALDEBERTArnaud/mcp-rncp) |
 | **Merx — European Business Data**<br>`io.github.BricePourLe13/merx` | European business data — French company check, EU VAT validation, legal search. | 1.0.0 | [dépôt](https://github.com/BricePourLe13/merxprotocol) |
 | **fr-legal-kit**<br>`io.github.CartonPliant/fr-legal-kit` | French legal helpers for agents: e-invoice, L441-10, SIRET/IBAN. $0.01 USDC x402 | 1.3.0 | [dépôt](https://github.com/CartonPliant/fr-legal-kit) · [site](https://fr-legal-kit.monnet-yanis1.workers.dev) |
 | `io.github.CloudCorpRecords/firmproof` | Official company checks for the UK, France and Spain: lookup, verify, screen, monitor. | 0.1.0 | [dépôt](https://github.com/CloudCorpRecords/firmproof) |
+| **DataX France &amp; EU Official Registries**<br>`io.github.DataX-Oracles-MCP/datax-france-eu-mcp` | France &amp; EU registries MCP (BODACC, SIREN, insolvencies, BOAMP tenders, TED) with USDC/EURC. | 0.1.4 | [dépôt](https://github.com/DataX-Oracles-MCP/datax-france-eu-mcp) · [site](https://datax-fr.duckdns.org/llms.txt) |
 | **France Care, accès aux soins et prévention**<br>`io.github.France-Care/france-care` | Accès aux soins en France, qui saisir pour une démarche de santé, prévention en entreprise. | 1.2.0 | [dépôt](https://github.com/France-Care/claude-plugin-france-care) · [site](https://mcp.france-care.fr/plugin) |
 | **France Company Check**<br>`io.github.JusticeUA/france-company-check` | France company checks by SIREN: status, insolvency, LEI, sanctions, public contracts (DECP and TED). | 0.1.2 | [site](https://apify.com/kyb-data/france-company-check) |
-| **Agent Data Tools: Company and VAT check**<br>`io.github.Nutshell2000/agent-data-tools-company-check` | 10 tools: EU VAT (VIES), Nordic and French company registers, LEI and OFAC sanctions checks. | 1.204.0 | [dépôt](https://github.com/Nutshell2000/agent-data-tools) · [site](https://agent-data-tools.revmesh2074.workers.dev/) |
+| **Agent Data Tools: Company and VAT check**<br>`io.github.Nutshell2000/agent-data-tools-company-check` | 10 tools: EU VAT (VIES), Nordic and French company registers, LEI and OFAC sanctions checks. | 1.344.0 | [dépôt](https://github.com/Nutshell2000/agent-data-tools) · [site](https://agent-data-tools.revmesh2074.workers.dev/) |
 | **France Company Search (SIREN / SIRET)**<br>`io.github.TheCompanyAtlas/france-siren-company` | French company search by name and SIREN, with SIRET, legal category and status. | 1.0.0 | [dépôt](https://github.com/TheCompanyAtlas/france-siren-company-mcp) · [site](https://thecompanyatlas.com) |
 | **French Due Diligence**<br>`io.github.Zansuken/french-due-diligence` | Keyless French company checks (Sirene, BODACC, VIES, sanctions), DPE compliance, product recalls | 0.5.0 |  |
 | **Klaren — French Companies Directory**<br>`io.github.ccamborde/klaren-mcp` | Search French companies, directors and associations (INPI, INSEE, RNA). | 0.1.2 | [dépôt](https://github.com/ccamborde/klaren.fr) |
 | **Resolve402**<br>`io.github.charleskremer-hub/resolve402` | French directors, NACE company search (FR, NO, FI), KYB checks, contacts, hiring signals, x402. | 0.5.0 | [site](https://resolve402.dev) |
 | **French Companies Registry Data**<br>`io.github.corent1robert/french-companies-data` | French company data by SIREN or search: address, NAF code, directors, VAT and financials | 1.0.0 |  |
 | **Welcome to the Jungle Jobs Scraper (Apify) - public WTTJ board**<br>`io.github.datadmon/welcome-to-the-jungle-jobs-scraper` | WTTJ France-focused public board jobs as JSON: full JD, company, only-new feed. $0.80/1k | 1.0.1 | [dépôt](https://github.com/datadmon/apify-data-actors-examples) · [site](https://apify.com/data_daemon/welcome-to-the-jungle-jobs-scraper) |
+| **Registry Pages**<br>`io.github.jamessvn/registry-pages` | Official registers of France, the UK, Norway and Ireland: company lookup, search, checks, VAT. | 1.2.0 | [site](https://registrypages.com/developers) |
+| **Atesen Company and Jobs Data**<br>`io.github.pabsamuel/atesen-company-data-mcp` | French company registry, SEC filings, trademark checks, website contacts and public job postings. | 0.1.0 | [dépôt](https://github.com/pabsamuel/atesen-mcp) · [site](https://atesensoftware.com) |
 | **Entreprises Fr**<br>`io.github.pipeworx-io/entreprises-fr` | French Companies MCP — recherche-entreprises.api.gouv.fr | 0.2.1 | [dépôt](https://github.com/pipeworx-io/mcp-entreprises-fr) · [site](https://pipeworx.io/packs/entreprises-fr) |
 | **Insee**<br>`io.github.pipeworx-io/insee` | INSEE MCP — France's SIRENE business registry (INSEE). | 0.2.1 | [dépôt](https://github.com/pipeworx-io/mcp-insee) · [site](https://pipeworx.io/packs/insee) |
 | `io.github.registry-desk/fr-sirene` | France Sirene company data. Batch Apify Actor, no hosted MCP endpoint. | 0.2.0 | [site](https://apify.com/tormanliikenne/fr-sirene) |
+| **EU &amp; U.S. Official Open-Data MCP Server**<br>`io.github.yannabadie/eu-us-opendata-mcp` | Zero-key Python MCP server for French SIRENE, EU TED tenders, NIH trials, US NPI &amp; Europe PMC. | 1.1.1 | [dépôt](https://github.com/yannabadie/eu-us-opendata-mcp) |
 | **Vigilix: French company &amp; address data**<br>`io.github.zekinht0/vigilix-mcp` | French company, BODACC, address and hazard data for AI agents. Pay per call in USDC via x402. | 0.1.0 | [dépôt](https://github.com/zekinht0/vigilix-mcp) · [site](https://siren.vigilix.fr) |
 | `io.insourcia/insourcia` | Search French companies: financials, directors, ownership, M&amp;A and insolvency events. | 1.0.0 | [site](https://insourcia.io/docs/guides/mcp) |
 | **Veriport: EU VAT number, IBAN, VAT rates and e-invoice checks**<br>`io.veriport/veriport` | EU VAT numbers on VIES, IBANs, French companies, Peppol IDs, EU VAT rates and e-invoice validation. | 0.1.1 | [dépôt](https://github.com/zenomoung/veriport-sdk) · [site](https://veriport.io/docs) |
 | **Open data: clinical trials, EU tenders, companies, fuel prices**<br>`org.duckdns.gregswarm.api/open-data` | Official open data as JSON: clinical trials, EU tenders, papers, apps, French firms, fuel, domains. | 1.0.20261027 | [site](https://swarminc12.github.io/) |
+| **Sisoco One**<br>`uk.co.sisoco/uk-companies-house-ownership` | No sign-up. UK companies, PSC/beneficial owners, KYB: Companies House, Sirene, LEI, insolvency. | 0.1.3 | [dépôt](https://github.com/SisocoOne/sisoco-one-mcp) · [site](https://api.sisoco.co.uk/) |
 
-### Emploi et social (20)
+### Emploi et social (21)
 
 | Serveur | Description | Version | Liens |
 |---|---|---|---|
@@ -104,13 +115,15 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | `com.adminlanding/french-rental-compliance` | FR/EN tools for French rental, frontalier &amp; home-employment (CCN 3239) — sourced, dated answers. | 1.20.0 | [site](https://adminlanding.com) |
 | **Hosco Hospitality Jobs**<br>`com.hosco/hospitality-jobs` | Search Hosco's live hospitality jobs across Spain, Italy, France, the UK and Switzerland. | 1.0.0 | [site](https://www.hosco.com) |
 | **Vocaneo**<br>`com.vocaneo/vocaneo` | French job profiles, RNCP diplomas and 135,000 training programs. Read-only, no account. | 1.0.1 | [dépôt](https://github.com/CIB-PROD/vocaneo-mcp-connector) · [site](https://vocaneo.com/connecteur) |
+| **REPERES**<br>`fr.bmse/reperes` | Expertise du social et médico-social français : textes sourcés, valeurs officielles, simulateurs. | 1.0.0 | [site](https://reperes.bmse.fr/docs/mcp) |
 | **Brandyze**<br>`fr.brandyze/mcp` | French AI marketing intelligence: creators, brands, social listening — 158 MCP tools. | 1.0.0 | [site](https://brandyze.fr) |
 | **Diplomètre**<br>`fr.diplometre/diplometre` | Free figures on French higher-education programs: admission, success, jobs, pay and cost, sourced. | 1.1.0 | [site](https://diplometre.fr/api-et-donnees) |
-| **FranceStack Tax &amp; Payroll**<br>`fr.francestack/tax-payroll` | French tax, salary, URSSAF, severance, unemployment benefit; free questions if info missing (x402) | 0.8.0 | [site](https://tax.francestack.fr) |
+| **FranceStack Tax &amp; Payroll**<br>`fr.francestack/tax-payroll` | French tax, salary, URSSAF, severance, unemployment benefit; free questions if info missing (x402) | 0.10.0 | [site](https://tax.francestack.fr) |
 | **Marcel**<br>`fr.marcel-retraite/marcel` | Calcul fiscal et retraite français, déterministe et sourcé. Aucun conseil. | 1.4.14 | [dépôt](https://github.com/marcel-retraite/marcel-mcp) · [site](https://marcel-retraite.fr/developer) |
+| **Matchaa**<br>`fr.matchaa/matchaa` | Tailor a resume to a job post without inventing anything. One-page PDF, in French or English. | 0.3.0 | [site](https://matchaa.fr) |
 | **QuiRecrute — offres d'emploi en France**<br>`fr.quirecrute/offres-emploi` | Offres d'emploi en France (sites carrière et autres sources), sans compte. Job offers in France. | 1.0.2 | [site](https://quirecrute.fr) |
 | **SignaMail**<br>`fr.signamail/signamail` | Email signatures for French businesses: HTML generator, legal mentions per job, SPF/DKIM/DMARC | 1.0.0 | [site](https://www.signamail.fr/serveur-mcp) |
-| **Welcome to the Jungle Jobs Scraper &amp; API - Otta, WTTJ, Salary**<br>`io.github.AnshumanAtrey/welcome-to-the-jungle-jobs-search` | Welcome to the Jungle Jobs Scraper - France &amp; Europe | 1.0.11 | [dépôt](https://github.com/AnshumanAtrey/welcome-to-the-jungle-jobs-search) · [site](https://apify.com/anshumanatrey/welcome-to-the-jungle-jobs-search) |
+| **Welcome to the Jungle Jobs Scraper &amp; API - Otta, WTTJ, Salary**<br>`io.github.AnshumanAtrey/welcome-to-the-jungle-jobs-search` | Welcome to the Jungle Jobs Scraper - France &amp; Europe | 1.0.13 | [dépôt](https://github.com/AnshumanAtrey/welcome-to-the-jungle-jobs-search) · [site](https://apify.com/anshumanatrey/welcome-to-the-jungle-jobs-search) |
 | `io.github.JoJoLaBagarre/france-travail-mcp` | Serveur MCP des API officielles France Travail : offres d'emploi, ROME 4.0 et ROMEO. | 0.1.1 | [dépôt](https://github.com/jojolabagarre/france-travail-mcp) |
 | `io.github.herve-coulon/tax-retirement` | Calcul fiscal (IR, IFI, PER, plus-value) et retraite français — 32 régimes, sourcé et daté. | 0.1.2 | [dépôt](https://github.com/herve-coulon/qotien-mcp) · [site](https://qotien.fr) |
 | **Jobs and market data: France, Germany, Spain, Latin America**<br>`io.github.morvanvivien/bibian-data` | Public job postings and market data for France, Germany, Spain and Latin America, as JSON. | 1.0.1 | [dépôt](https://github.com/morvanvivien/bibian-data-mcp) |
@@ -118,7 +131,6 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **OfferMagnet Jobs**<br>`io.offermagnet/jobs` | Live job search (US, France, Europe, remote) with each posting's visa-sponsorship stance. Free. | 1.0.0 | [site](https://offermagnet.io/developers) |
 | **GetYourJob**<br>`pro.getyourjob/getyourjob` | French IT job search, AI candidate-offer matching, application tracking and cover letters. | 1.0.0 | [site](https://getyourjob.pro/mcp) |
 | **Rebond, offres d'emploi**<br>`pro.rebond/offres-emploi` | Offres d'emploi publiques en France : recherche par métier, ville, contrat, télétravail. | 1.0.0 | [site](https://rebond.pro) |
-| **while**<br>`sh.while/while` | French PaaS built for AI agents: deploy apps, PostgreSQL, caches, S3 and jobs over MCP. | 2.1.0 | [site](https://while.sh/en/) |
 | **Pionra**<br>`world.pionra/pionra` | Guides, housing, jobs, events and communities for foreigners living in France, in 6 languages. | 1.0.0 | [site](https://pionra.world) |
 
 ### Santé (4)
@@ -130,11 +142,13 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **Médicaments en France**<br>`io.github.amine7536/medicaments-france` | French medicines (ANSM + BDPM): boxes and prices, prescription conditions, safety info, shortages. | 1.14.0 | [dépôt](https://github.com/amine7536/mcp-medicaments-france) · [site](https://medicaments-france.a3e.dev/) |
 | `io.github.cturkieh/france-data-mcp` | French public-data MCP: cross-ref health, demographics, business, geo &amp; real-estate. | 0.32.0 | [dépôt](https://github.com/cturkieh/france-data-mcp) |
 
-### Juridique et administration (25)
+### Juridique et administration (29)
 
 | Serveur | Description | Version | Liens |
 |---|---|---|---|
+| **SmartLawyer — French Case Law &amp; Legal Graph**<br>`ai.smartlawyer/legal-graph` | 1.2M French court decisions linked by citations: search, case files, overruled-case detection. | 4.0.0 | [site](https://smartlawyer.ai/mcp/) |
 | **ConformRadar**<br>`com.conformradar/conformradar` | Check online shops and pages against French e-commerce and consumer law, with legal references. | 0.1.0 | [site](https://conformradar.com/en/ai-agents) |
+| **Connecteurs juridiques**<br>`com.connecteurs-juridiques/connecteurs-juridiques` | Official French and EU legal sources (Légifrance, Judilibre, BOFiP, EUR-Lex) for Claude and ChatGPT | 1.0.0 | [site](https://connecteurs-juridiques.com) |
 | **Olia**<br>`com.kema-studio/olia` | Practice management for French law firms: matters, time, invoices and expenses from your AI agent. | 1.1.0 | [site](https://olia-app.fr) |
 | **Legitym — French law**<br>`com.legitym/legal` | French case law (Judilibre) and codes (Légifrance) from official sources, with citation checking. | 1.0.1 | [site](https://legitym.com/fr/mcp?utm_source=mcp-registry&utm_medium=directory) |
 | **Vitef**<br>`com.vitef/vitef` | French admin chores: law-citing letters, calculators, quotes. Démarches en France, vite fait. | 1.2.0 | [site](https://vitef.com/assistants-ia) |
@@ -144,32 +158,36 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **LexIA Juris (EDIVIA)**<br>`fr.edivia/lexia-juris` | MCP droit &amp; fiscalite francais : 76 codes, jurisprudence, BOFiP. LexIA Juris, EDIVIA. Abonnement. | 1.0.0 | [site](https://edivia.fr/connecteur-mcp) |
 | **Infoparcelle - cadastre, DVF, DPE, PLU**<br>`fr.infoparcelle/infoparcelle` | French property data: cadastral parcels, DVF sales, DPE, PLU zoning, permits, legal owners | 1.0.0 | [site](https://www.infoparcelle.fr/mcp) |
 | **BRANCO - Droit français**<br>`fr.juan-branco/branco` | Droit français : textes, jurisprudence, citations et calculs. Connexion OAuth au compte BRANCO. | 0.56.3 | [site](https://droit.juan-branco.fr/) |
-| **LibreJustice**<br>`fr.librejustice/librejustice` | Search French-language and European case law and French legal texts (codes, statutes, treaties). | 1.18.0 | [dépôt](https://github.com/librejustice/librejustice) · [site](https://librejustice.fr) |
+| **Lexou · droit français**<br>`fr.lexou/lexou` | Droit français : Légifrance, jurisprudence, registres officiels, délais et intérêts légaux. | 1.1.0 | [site](https://lexou.fr/connecteur) |
+| **LibreJustice**<br>`fr.librejustice/librejustice` | Search French, European, Swiss, Belgian, Luxembourg, Dutch and African case law and legal texts. | 1.20.0 | [dépôt](https://github.com/librejustice/librejustice) · [site](https://librejustice.fr) |
 | **Ma Copro En Règle**<br>`fr.macoproenregle/macoproenregle` | French condominiums (copropriétés): legal compliance check, managing agents, communes. | 1.0.0 | [site](https://www.macoproenregle.fr) |
-| **Miramo**<br>`fr.miramo/mcp` | French rental law for tenants and landlords: rent caps, rental zones and unfurnished lease drafts. | 0.1.1 | [dépôt](https://github.com/miramolabs/mcp) · [site](https://www.miramo.fr/outils/mcp/developpeurs) |
-| `fr.synergieloc/immobilier` | French real-estate law and building CAD/BIM (DXF, IFC). /mcp/v2: lightweight catalogue. | 1.2.0 | [site](https://synergieloc.fr/api-ia) |
+| **Miramo**<br>`fr.miramo/mcp` | French rental law and calculators for tenants and landlords: rent caps, notices, deposits, leases. | 0.3.0 | [dépôt](https://github.com/miramolabs/mcp) · [site](https://www.miramo.fr/outils/mcp/developpeurs) |
+| **PageLab**<br>`fr.pagelab/pagelab` | French law for lawyers: official sources, legal templates, citation checking. | 1.0.0 |  |
 | **Code civil (France)**<br>`io.arxo/code-civil` | French Civil Code (LEGI) as executable rules: facts and a legal date in, answers with grounds out | 0.1.10 | [dépôt](https://github.com/arxohq/arxo-code-civil) · [site](https://code-civil.law.arxo.io/) |
 | **Droit français sourcé**<br>`io.github.JohnJackHouzi/droit-francais` | Droit français et européen officiel (Légifrance, DILA, EUR-Lex, jurisprudence), réponses sourcées. | 1.0.0 | [dépôt](https://github.com/JohnJackHouzi/droit-francais-skill) · [site](https://droit.studjoow.com) |
 | **AiLexLux**<br>`io.github.digitranslu/ailexlux` | Luxembourg, EU and French legal research and drafting with cited sources. Account required. | 1.0.0+87d3a9e8e283 | [site](https://ailexlux.digitrans.lu) |
 | `io.github.kOlapsis/gofact` | Creates compliant French e-invoices locally: Factur-X PDF/A-3 with EN 16931 CII XML, legal numbering | 1.2.0 | [dépôt](https://github.com/kOlapsis/gofact) · [site](https://gofact.kolapsis.com/) |
 | `io.github.matematicsolutions/fr-eli-mcp` | MCP server for French Legifrance (PISTE): legislation and case law with citations and ECLI. | 0.5.3 | [dépôt](https://github.com/matematicsolutions/fr-eli-mcp) |
 | `io.github.matematicsolutions/mcp-fr-legal` | Offline MCP korpus prawa francuskiego (Legifrance/DILA) - verbatim + grounding cytatu | 0.1.3 |  |
-| **Légifrance (unofficial)**<br>`io.github.muchiny/mcp-legifrance` | Unofficial MCP server for French law via the Légifrance API (PISTE): search, read and cite texts. | 1.3.1 | [dépôt](https://github.com/muchiny/mcp-legifrance) · [site](https://github.com/muchiny/mcp-legifrance#readme) |
+| **Légifrance (unofficial)**<br>`io.github.muchiny/mcp-legifrance` | Unofficial MCP server for French law via the Légifrance API (PISTE): search, read and cite texts. | 1.4.1 | [dépôt](https://github.com/muchiny/mcp-legifrance) · [site](https://github.com/muchiny/mcp-legifrance#readme) |
 | **French Legal Data (Law, Case Law, IDCC)**<br>`io.github.nicolasfichaux1-blip/french-legal-mcp` | French law articles, codes, collective agreements, case law (Judilibre) and IDCC lookup. | 1.0.0 | [site](https://apify.com/klyve1/french-legal-mcp) |
+| `io.github.philippelognoul/belgian-legal-lexicon-nl-fr` | Belgian court-procedure terms, Dutch to French, each tied to the article of law that fixes it. | 1.2.0 | [dépôt](https://github.com/philippelognoul/belgian-legal-lexicon-nl-fr) |
 | **Fr Legifrance**<br>`io.github.pipeworx-io/fr-legifrance` | France's Légifrance API via the state's PISTE gateway — the parts @pipeworx/france-legi does NOT… | 0.1.0 | [dépôt](https://github.com/pipeworx-io/mcp-fr-legifrance) · [site](https://pipeworx.io/packs/fr-legifrance) |
 | **France Legi**<br>`io.github.pipeworx-io/france-legi` | France LEGI — the official consolidated French codes (Code civil, Code pénal, Code du travail… | 0.2.1 | [dépôt](https://github.com/pipeworx-io/mcp-france-legi) · [site](https://pipeworx.io/packs/france-legi) |
 | **Clair**<br>`org.dpdns.clair/clair` | Audits AI-built websites for France and Belgium: cookies, GDPR, legal pages, exposed keys, security. | 1.0.0 | [site](https://clair.dpdns.org) |
 
-### Fiscalité et facturation (39)
+### Fiscalité et facturation (44)
 
 | Serveur | Description | Version | Liens |
 |---|---|---|---|
-| **Altoviz MCP Server**<br>`com.altoviz/mcp` | Altoviz invoicing app for french small businesses | 1.0.10 | [site](https://mcp.altoviz.com) |
-| **E-Invoice Checker**<br>`com.einvoicechecker/einvoice` | Validate, parse and render EU e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS 3.0, KSeF. | 1.0.2 | [dépôt](https://github.com/vpukhalskyi/einvoicechecker-mcp) · [site](https://einvoicechecker.com/mcp/) |
+| **Altoviz MCP Server**<br>`com.altoviz/mcp` | Altoviz invoicing app for french small businesses | 1.0.11 | [site](https://mcp.altoviz.com) |
 | `com.einvoicewiz/einvoicewiz` | Generate &amp; validate EN 16931 e-invoices (Factur-X, ZUGFeRD, XRechnung); verification certificates | 1.0.0 | [site](https://einvoicewiz.com/mcp-server) |
+| **FacturLint - Factur-X 1.09.2 &amp; BR-FR-CTC E-Invoicing**<br>`com.facturlint/facturlint` | Stateless Factur-X 1.09.2, EN 16931 &amp; French BR-FR-CTC invoice validation and PDF/A-3b auto-repair. | 0.2.0 | [dépôt](https://github.com/facturlint/facturlint-python) · [site](https://facturlint.com) |
 | **FacturX API**<br>`com.facturxapi/mcp` | Official MCP server for the FacturX API: dry run, Factur-X conversion, validation, rule lookup. | 0.1.2 | [dépôt](https://github.com/facturxapi/sdk) |
 | **InvoiceXML**<br>`com.invoicexml/invoicexml` | Create, validate, convert &amp; extract compliant e-invoices (UBL, Factur-X, ZUGFeRD, XRechnung) | 1.0.0 | [dépôt](https://github.com/InvoiceXML/invoicexml-mcp) · [site](https://www.invoicexml.com/mcp-server) |
+| **Kema Invoice**<br>`com.kema-studio/invoice` | Compliant invoicing for businesses established in France: create, issue and track invoices by AI. | 1.1.1 | [dépôt](https://github.com/Kema-Studio/kema-invoice-mcp) · [site](https://invoice.kema-studio.com) |
 | **Margeo**<br>`com.margeoapp/mcp` | Margeo gives an AI agent a French reseller's stock, sales, net margin and micro-enterprise tax. | 1.0.0 | [site](https://margeoapp.com) |
+| **Normbeleg – EU e-invoices: XRechnung, ZUGFeRD, RO e-Factura**<br>`com.ppftec/normbeleg` | EU e-invoices: validate XRechnung, ZUGFeRD/Factur-X and RO e-Factura, convert data, national rules | 1.0.2 | [site](https://normbeleg.ppftec.com/mcp-plans) |
 | `com.tally-stick/tallystick` | Read, validate and write e-invoices on your own machine. XRechnung, ZUGFeRD, Factur-X, UBL, CII. | 1.0.2 | [dépôt](https://github.com/nugrohosetiaji91-png/tallystick-mcp) · [site](https://tally-stick.com/mcp) |
 | **VoxFactura**<br>`com.voxfactura/voxfactura` | Quotes, invoices, French e-invoicing, website and bookings for French freelancers. | 1.0.0 | [site](https://www.voxfactura.com/assistants-ia) |
 | **XSDHub: EN 16931, XRechnung, Factur-X, KSeF, RO and HR e-invoices**<br>`com.xsdhub/validation` | Official rules, version per result. SAF-T, SEPA, ISO 20022, DAC7 checks; CBAM and XBRL web tools. | 2.1.3 | [site](https://xsdhub.com/ai) |
@@ -179,7 +197,7 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **csv2zugferd**<br>`de.zugferd-tools/csv2zugferd` | csv2zugferd setup assistant: drafts and checks the CSV to ZUGFeRD/Factur-X mapping, local via stdio | 1.3.1 | [dépôt](https://github.com/rillsoft/csv2zugferd) · [site](https://zugferd-tools.de/docs/mcp-server/) |
 | **ZUGFeRD Validator**<br>`de.zugferd-validator/validator` | Validiert E-Rechnungen (ZUGFeRD/Factur-X, XRechnung) gegen EN 16931 mit Korrekturvorschlägen. | 1.0.2 | [dépôt](https://github.com/tzatti1/zugferd-validator) · [site](https://zugferd-validator.de) |
 | `dev.invoicehub/invoicehub` | Validate, generate &amp; convert EU e-invoices (UBL, CII, XRechnung, Factur-X) — EN 16931 pre-validated. | 1.3.0 | [dépôt](https://github.com/einvoice-dev1/einvoice) · [site](https://invoicehub.dev) |
-| **invowerk**<br>`dev.invowerk/xrechnung-e-invoice-validator` | E-invoice checker for ZUGFeRD, Factur-X, XRechnung and Peppol BIS. Free web tool, API and MCP. | 1.0.1 | [dépôt](https://github.com/invowerk-dev/invowerk) · [site](https://invowerk.dev/en/) |
+| **invowerk**<br>`dev.invowerk/xrechnung-e-invoice-validator` | E-invoice checker for ZUGFeRD, Factur-X, XRechnung and Peppol BIS. Free web tool, API and MCP. | 1.0.2 | [dépôt](https://github.com/invowerk-dev/invowerk) · [site](https://invowerk.dev/en/) |
 | **Fiscalité française ouverte, par BENSAID Avocats**<br>`fr.bensaid-avocats/fiscalite` | Official French tax texts, dated and sourced: 237 treaty instruments by article, BOFiP, CGI, LPF. | 1.0.0 | [site](https://outils.bensaid-avocats.fr/mcp) |
 | **gentry.fr, le logement en France**<br>`fr.gentry/logement` | French housing data for every commune: sale prices, rents, property tax and rent control. | 0.2.0 | [site](https://gentry.fr/agents) |
 | **Omexis Invoice**<br>`fr.omexis/invoice` | Facturation française : devis, factures Factur-X, avoirs, relances et comptabilité. | 1.2.61 | [site](https://invoice.omexis.fr/assistant-ia) |
@@ -188,18 +206,21 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | `io.github.CedricKouma/facturx-toolkit` | Validate, extract, repair and generate French Factur-X / EN16931 invoices via AgentForge API | 0.1.0 |  |
 | `io.github.CloudCorpRecords/invoiceproof` | Validate, parse, fix and render EU e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol, KSeF. | 0.1.0 | [dépôt](https://github.com/CloudCorpRecords/invoiceproof) |
 | **LayerOne (DocX + Sign)**<br>`io.github.GOLayerone/layerone` | MCP server for LayerOne DocX (documents &amp; Factur-X) and Sign (e-signature) APIs. | 1.0.0 | [dépôt](https://github.com/GOLayerone/layerone-mcp) · [site](https://dev.layerone.fr) |
-| **EU E-Invoice XML Generator (Peppol, XRechnung, Factur-X)**<br>`io.github.Geornaden/peppol-xrechnung-facturx-einvoice-mcp` | Generate EN 16931 European B2B e-invoice XML in Peppol BIS 3.0 UBL, XRechnung 3.0 &amp; Factur-X CII | 1.1.0 | [dépôt](https://github.com/Geornaden/finops-studio) · [site](https://geornaden.github.io/finops-studio/eu-einvoice-xml-generator.html) |
+| **EU E-Invoice XML Generator (Peppol, XRechnung, Factur-X)**<br>`io.github.Geornaden/peppol-xrechnung-facturx-einvoice-mcp` | Free 2-line preview + EN 16931 Peppol BIS 3.0 UBL, XRechnung 3.0 &amp; Factur-X CII XML MCP | 1.2.0 | [dépôt](https://github.com/Geornaden/finops-studio) · [site](https://geornaden.github.io/finops-studio/eu-einvoice-xml-generator.html) |
 | **Factur-X: Generate &amp; Validate E-Invoices**<br>`io.github.LeBorgneAntoine/facturx` | Validate Factur-X, CII &amp; UBL e-invoices free, no key. Generate compliant invoices from JSON. | 0.1.23 | [site](https://facturx.orvel.dev/docs/mcp/) |
 | `io.github.OlivierLAVAUD/mcp-immo` | French real-estate intelligence from official open data: DVF, valuations, rents, tax, DPE, risks. | 1.12.0 | [dépôt](https://github.com/OlivierLAVAUD/mcp-immo-olv) |
 | **Conformo e-invoicing**<br>`io.github.arsalmurad/conformo` | Create and check EU e-invoices (XRechnung, ZUGFeRD, Factur-X, Peppol) locally. Free, no API key. | 0.2.5 | [dépôt](https://github.com/arsalmurad/conformo) · [site](https://conformo-docs.vercel.app/) |
 | `io.github.causa-prima-ai/scribo` | EN 16931-compliant e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS, Facturae or US PDF. Free. | 1.0.0 | [dépôt](https://github.com/causa-prima-ai/scribo-mcp) · [site](https://scribo.causaprima.ai) |
 | **Facture Électronique France**<br>`io.github.cmendezs/mcp-facture-electronique-fr` | MCP server for French e-invoicing (XP Z12-013). Manages invoices, validation and compliance. | 0.9.1 | [dépôt](https://github.com/cmendezs/mcp-facture-electronique-fr) |
+| **Codixio API E-Invoice**<br>`io.github.codixio/codixio-api-einvoice` | Validate XRechnung, ZUGFeRD and Factur-X with the KoSIT validator and create valid e-invoices. | 1.0.1 | [site](https://api.codixio.com/en/services/e-invoice?utm_source=mcp-registry&utm_medium=directory) |
 | **Eleata e-Invoice Validator**<br>`io.github.hernaninverso/eleata-einvoice-mcp` | Validate EU e-invoices (Peppol, XRechnung, Factur-X, UBL, CII) and explain error codes. | 0.1.1 | [dépôt](https://github.com/hernaninverso/eleata-einvoice-mcp) |
 | `io.github.imysfylmz/xrechnung-mcp` | Validate and parse German e-invoices (XRechnung, ZUGFeRD, Factur-X) offline. No API key. | 0.1.1 | [dépôt](https://github.com/imysfylmz/e-rechnung-inbox) · [site](https://www.e-rechnung-inbox.de) |
 | `io.github.jmshinhwa/france-einvoice-reception-lint` | 12 checks for the French mandatory mentions a PDP rejects, on Factur-X, UBL and CII invoices | 1.0.5 | [dépôt](https://github.com/jmshinhwa/readystack-themes) |
-| **OpenLMNP**<br>`io.github.manganate006/openlmnp` | Accounting MCP for French LMNP furnished rentals: income, expenses, depreciation, tax return &amp; FEC | 2.0.1 | [dépôt](https://github.com/manganate006/openlmnp) · [site](https://openlmnp.fr/mcp) |
+| **OpenLMNP**<br>`io.github.manganate006/openlmnp` | Accounting MCP for French LMNP furnished rentals: income, expenses, depreciation, tax return &amp; FEC | 2.2.1 | [dépôt](https://github.com/manganate006/openlmnp) · [site](https://openlmnp.fr/mcp) |
+| **PDFik**<br>`io.github.pdfik/pdfik-mcp` | URL/HTML/Markdown to PDF, screenshots and Factur-X e-invoices via the PDFik API. | 0.1.0 | [dépôt](https://github.com/pdfik/pdfik-mcp) · [site](https://docs.pdfik.net/integrations/mcp) |
 | **InvoiceIn**<br>`io.github.peculiar-systems/invoicein` | XRechnung, Factur-X, Peppol, PINT AE, FatturaPA, KSeF → JSON + fix hints. Hosted; MIT=examples only | 0.1.3 | [dépôt](https://github.com/peculiar-systems/invoicein-examples) · [site](https://invoicein.peculiar.systems) |
-| **pdf-to-einvoice**<br>`io.github.smart-byte/pdf-to-einvoice` | Invoice PDF to EN 16931 e-invoice (ZUGFeRD / Factur-X), or invoice data to XRechnung. Runs locally. | 0.2.0 | [dépôt](https://github.com/smart-byte/pdf-to-einvoice) · [site](https://pdf-to-einvoice.app/) |
+| **pdf-to-einvoice**<br>`io.github.smart-byte/pdf-to-einvoice` | Invoice PDF to EN 16931 e-invoice (ZUGFeRD / Factur-X), or invoice data to XRechnung. Runs locally. | 0.3.2 | [dépôt](https://github.com/smart-byte/pdf-to-einvoice) · [site](https://pdf-to-einvoice.app/) |
+| **MaCalculatriceEnLigne**<br>`io.github.tresor4k/macalc-mcp` | Calculs fiscaux et sociaux français datés : impôt sur le revenu 2026, SMIC, ARE, succession, TVA. | 0.5.0 | [dépôt](https://github.com/tresor4k/macalc-mcp) · [site](https://macalculatriceenligne.com/mcp/) |
 | **FEC Checker (French accounting file pre-audit)**<br>`io.github.vincenz-cdf/fec-lint` | Validate French FEC accounting files and flag audit risks before a tax audit. | 0.1.2 | [dépôt](https://github.com/vincenz-cdf/fec-lint) · [site](https://apify.com/highfiddle/fec-checker) |
 | **XRechnung Validator**<br>`io.github.wenboteng/xrechnung-validator` | Validate XRechnung XML and ZUGFeRD / Factur-X PDFs with the free checkxrechnung.com API. | 0.2.0 | [dépôt](https://github.com/wenboteng/xrechnung-validator) · [site](https://checkxrechnung.com) |
 | **France Salary and Income Tax Calculator**<br>`nl.nltaxcalculator/salary-fr` | France 2026: full income tax return, net salary, gross for net, employer cost, vs the Netherlands | 2.1.0 | [site](https://nltaxcalculator.nl/dutch-tax/ai-assistants) |
@@ -214,9 +235,9 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **Aucadastre**<br>`fr.aucadastre/aucadastre` | A French address, all public facts: parcel, zoning, risks, permits, sales, energy labels. No key. | 0.1.0 | [site](https://aucadastre.fr/api) |
 | **SYMONE motorcycle transport**<br>`fr.symone/symone-moto` | Motorcycle transport in France: search trips, request quotes, prepare bookings the customer pays. | 1.4.0 | [site](https://symone.fr/developers) |
 | **PLU IA**<br>`io.github.AZERIA-IT/pluia` | French zoning (PLU) for any address or parcel in France, rules cited with the official PDF page. | 1.0.0 | [site](https://pluia.fr/ia) |
-| **GBFS France**<br>`io.github.Timi-Duban/gbfs-france` | Live bike-share availability in France: docked networks, nearby stations, bikes and docks. | 0.1.5 | [dépôt](https://github.com/Timi-Duban/gbfs-france) |
+| **GBFS France**<br>`io.github.Timi-Duban/gbfs-france` | Live bike-share availability in France: docked networks, nearby stations, bikes and docks. | 0.2.0 | [dépôt](https://github.com/Timi-Duban/gbfs-france) |
 | **Data Sncf**<br>`io.github.pipeworx-io/data-sncf` | SNCF Open Data (ressources.data.sncf.com) — OpenDataSoft MCP. | 0.2.1 | [dépôt](https://github.com/pipeworx-io/mcp-data-sncf) · [site](https://pipeworx.io/packs/data-sncf) |
-| **Parcellaire — cadastre, DVF &amp; DPE**<br>`re.parcellai/parcellaire` | French real estate data: cadastre, DVF sales, DPE energy ratings, price estimates, parcel context | 1.2.0 | [site](https://parcellai.re/mcp) |
+| **Parcellaire — cadastre, DVF &amp; DPE**<br>`re.parcellai/parcellaire` | French real estate data: cadastre, DVF sales, DPE, energy audits, price estimates, parcel context | 1.3.0 | [site](https://parcellai.re/mcp) |
 
 ### Géographie et territoire (12)
 
@@ -224,13 +245,13 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 |---|---|---|---|
 | **France Payments (Stripe — Cartes Bancaires)**<br>`app.wishpool/france-payments-mcp` | France payments for AI agents — Cartes Bancaires via Stripe. Never holds funds. | 0.1.0 | [dépôt](https://github.com/junter1989k-ai/france-payments-mcp) |
 | **Callejear France**<br>`com.callejear/france` | Search 2.19M French street records, IRIS-level amenities and commune-level risk codes. | 1.0.0 | [site](https://callejear.fr/mcp/) |
-| **TOISE — intelligence foncière**<br>`com.toiseai/toise` | French land intelligence: corporate property owners, zoning (PLU), cadastre, DVF sales, permits. | 1.0.0 | [site](https://toiseai.com) |
-| **France CatNat Natural Disaster Claim Deadline Sentinel**<br>`fr.amacunia/france-catnat-natural-disaster-claim-deadline` | Is a French commune under a CatNat natural-disaster decree, and until when can claims be filed? | 0.4.0 | [site](https://catnat.amacunia.fr/) |
+| **France CatNat Natural Disaster Claim Deadline Sentinel**<br>`fr.amacunia/france-catnat-natural-disaster-claim-deadline` | Is a French commune under a CatNat natural-disaster decree, and until when can claims be filed? | 0.6.1 | [site](https://catnat.amacunia.fr/) |
 | **Chaque Euro**<br>`fr.chaqueeuro/mcp` | Argent public français avec sources : budget de l'État, communes, marchés publics, élus. | 1.0.0 | [dépôt](https://github.com/ArthurVerrez/chaque-euro) · [site](https://chaqueeuro.fr/ia) |
 | **LexIA Pro (EDIVIA)**<br>`fr.edivia/lexia-pro` | MCP foncier &amp; urbanisme officiels francais (cadastre, PLU, DVF). LexIA Pro, EDIVIA. Abonnement. | 1.0.0 | [site](https://edivia.fr/connecteur-mcp) |
 | **Info Scolarité**<br>`fr.info-scolarite/etablissements` | Écoles, collèges et lycées de France : fiche, recherche et collège de secteur d'une adresse. | 1.0.0 | [site](https://info-scolarite.fr/mcp) |
 | **La Grande Carte**<br>`fr.lagrandecarte/mcp` | French open data: communes, parcels, risks, property sales, water, crime, planning. | 1.0.0 | [site](https://lagrandecarte.fr/api-doc#mcp) |
-| **Mitoyens, pesticides près de chez vous**<br>`fr.mitoyens/pesticides` | Pesticides par commune en France : eau du robinet, écoles près des champs, achats, carte. | 1.1.0 | [site](https://mitoyens.fr/donnees-api) |
+| **Mitoyens, pesticides près de chez vous**<br>`fr.mitoyens/pesticides` | Pesticides par commune en France : eau du robinet, écoles près des champs, achats, carte. | 2.0.0 | [site](https://mitoyens.fr/donnees-api) |
+| **Seal Open Data**<br>`fr.sealopendata/open-data` | French public open data (data.gouv.fr) cross-referenced by commune, EPCI and department. | 1.0.0 | [dépôt](https://github.com/ariacom/Seal-Report) · [site](https://sealopendata.fr/) |
 | **Ban Fr**<br>`io.github.pipeworx-io/ban-fr` | Base Adresse Nationale (BAN) MCP — France's official keyless geocoding API… | 0.2.1 | [dépôt](https://github.com/pipeworx-io/mcp-ban-fr) · [site](https://pipeworx.io/packs/ban-fr) |
 | **INSEE commune code shape, value discarded**<br>`io.github.sadri-dridi/fr-insee` | INSEE commune code shape, value discarded | 1.0.0 | [dépôt](https://github.com/sadri-dridi/named-mcp-utilities) |
 | **André — Analyse électorale française**<br>`vote.andre/elections` | Résultats des élections françaises 1999-2026 par bureau de vote, socio-démo INSEE et cartes. | 1.28.1 | [dépôt](https://github.com/joelgombin/andre-mcp) · [site](https://andre.vote) |
@@ -253,20 +274,24 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **Datagouv Fr**<br>`io.github.pipeworx-io/datagouv-fr` | data.gouv.fr MCP — French open-data catalogue. | 0.2.1 | [dépôt](https://github.com/pipeworx-io/mcp-datagouv-fr) · [site](https://pipeworx.io/packs/datagouv-fr) |
 | **Créavores AEO Audit**<br>`io.github.tresor4k/creavores-aeo-mcp` | AEO audit of any URL + French open data: website prices, public tenders, editorial calendar. | 1.1.0 | [dépôt](https://github.com/tresor4k/creavores-aeo-mcp) · [site](https://lescreavores.fr) |
 
-### Commerce et paiement (36)
+### Commerce et paiement (39)
 
 | Serveur | Description | Version | Liens |
 |---|---|---|---|
 | **MORYA**<br>`app.morya/morya` | French real-estate intelligence: prices, rents, listings, yield, rental management. | 1.0.0 | [site](https://morya.app) |
 | **Angling Lines**<br>`com.anglinglines/angling-lines` | Carp fishing lakes in France: search venues, check availability, get week prices, book. | 0.1.0 | [site](https://www.anglinglines.com) |
-| **Catalogue APP24, formations d'échecs en français**<br>`com.apprendre-les-echecs-24h/catalogue-echecs-fr` | 94 formations d'échecs en français, prix à jour, conseil d'entraîneur. French chess courses. | 1.0.0 | [site](https://boutique.apprendre-les-echecs-24h.com/) |
+| **Catalogue APP24, formations d'échecs en français**<br>`com.apprendre-les-echecs-24h/catalogue-echecs-fr` | 94 formations d'échecs en français, prix à jour, conseil d'entraîneur. French chess courses. | 1.0.1 | [site](https://boutique.apprendre-les-echecs-24h.com/) |
+| **Bazaveo**<br>`com.bazaveo/bazaveo` | Idées cadeaux et produits qui se vendent en France : avis résumés, défauts, prix datés. | 1.0.1 | [site](https://bazaveo.com/) |
 | **B.R.M Chronographes - Watch Configurator**<br>`com.brm-chronographes/configurator` | Configure, price, render and order a made-to-order B.R.M watch (French manufacture). No auth. | 1.0.0 | [site](https://brm-chronographes.com/en/ai-assistants.html) |
 | **Chateaupedia**<br>`com.chateaupedia/chateaux` | Search 10,500 French castles and read verified entries: hours, prices, accessibility. | 1.0.0 | [site](https://chateaupedia.com) |
+| **GetEverwear second-hand clothing catalogue**<br>`com.geteverwear/catalogue` | Search unique second-hand branded clothing for sale at GetEverwear (France): pieces, sizes, prices. | 1.0.0 | [site](https://geteverwear.com) |
 | `com.gositehunt/gositehunt` | Development-site hunting by chat: sites, deal checks, billboards, retail catchments, French friches. | 1.4.0 | [site](https://gositehunt.com/claude) |
 | **Losali French Special Numbers**<br>`com.losalidirect/numbers` | Directory of French special phone numbers: service, number type, cost from France, Losali price | 1.1.0 | [site](https://api.losalidirect.com/v1/docs) |
+| **PapeleoYa — certified &amp; sworn translations in Europe**<br>`com.papeleoya/translations` | Certified/sworn translation prices and rules: Spain, Germany, France, Italy, Portugal, Nordics | 1.0.0 | [site](https://mcp.papeleoya.com) |
 | **ski-france.com Agent Search**<br>`com.ski-france/agent-search` | Ski apartment search with one- or two-week prices, availability, destinations and ski passes. | 1.1.0 |  |
 | **Washlib**<br>`com.washlib/washlib` | Find car washes in France, check live slots, get exact prices and start a booking. | 1.1.0 | [dépôt](https://github.com/J1034567/washlib) · [site](https://washlib.com) |
 | **Software Prices France**<br>`eu.jaikin/software-prices-france` | Read-only French software project prices: public contracts (DECP) and verified private figures. | 0.2.2 | [dépôt](https://github.com/Jaikin-SASU/claude-plugin-software-buyer) · [site](https://www.jaikin.eu/) |
+| **abiu**<br>`fr.abiu/abiu` | ERP for French food wholesalers: catalogue, stock by lot, orders, prices and invoices. | 0.132.4 | [site](https://abiu.fr/assistants-ia.html) |
 | **BocaRoss**<br>`fr.bocaross/annuaire` | Garages, carrossiers, contrôle technique, pare-brise et lavage auto en France : fiches et prix. | 1.0.0 | [site](https://bocaross.fr) |
 | **Cadorama**<br>`fr.cadorama02/shop` | Asian grocery &amp; gift shop in France: search products, promos, store hours, Stripe checkout links. | 1.1.0 | [site](https://www.cadorama02.fr) |
 | **CarHunt**<br>`fr.carhunt/carhunt` | French used-car search across LeBonCoin, LaCentrale, L'Argus and more, with price estimates. | 1.0.0 | [site](https://carhunt.fr/mcp) |
@@ -276,10 +301,10 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **Dinilu France — objets publicitaires personnalisés**<br>`fr.dinilu/mcp` | Prix actuels, options et frais de port pour des objets publicitaires personnalisés. | 1.0.0 | [site](https://dinilu.fr/qui-sommes-nous/developpeurs) |
 | **Estimatiz**<br>`fr.estimatiz.www/estimatiz` | French property estimates from DVF sales, with price range, limitations and a shareable report. | 1.0.0 | [site](https://www.estimatiz.fr/api-documentation) |
 | **Lingoris — traduction assermentée**<br>`fr.lingoris/traduction-assermentee` | Sworn (certified) translation in France: instant firm price, 100+ languages, order tracking. | 1.0.0 | [site](https://www.lingoris.fr/mcp) |
-| **Pausila**<br>`fr.pausila/mcp` | Praticiens de bien-être corporel en France : recherche, prix, créneaux libres, avis. Lecture seule. | 0.6.0 | [site](https://pausila.fr/connect) |
+| **Magic Prices France**<br>`fr.magicprices/mcp` | Read-only price comparison for France: products, store offers, price history, deals, coupons (EUR). | 2.0.0 | [site](https://mcp.magicprices.fr/docs) |
 | **rendita**<br>`fr.rendita/rendita` | French dividends read in the filings (BALO, AMF): amount, ex-date, payment date, quote. No key. | 0.1.0 | [site](https://rendita.fr/api) |
 | **SCPI Select**<br>`fr.scpiselect/scpi-select` | French SCPI real estate funds: prices, yields, fees and acquisitions from official reports. | 1.0.0 | [site](https://scpiselect.fr/brancher-votre-ia) |
-| **Sous La Gélule**<br>`fr.souslagelule/complements` | Food supplements sold in France ranked by price per month at the same dose, with source and date. | 1.0.0 | [site](https://souslagelule.fr/donnees) |
+| **Sous La Gélule**<br>`fr.souslagelule/complements` | Food supplements sold in France ranked by price per month at the same dose, with source and date. | 1.1.0 | [site](https://souslagelule.fr/donnees) |
 | **nextbank.holiday**<br>`holiday.nextbank/bank-holidays` | Next bank holiday for UK, Ireland, France, Germany and Spain. Free daily quota, then USDC via x402. | 1.0.0 |  |
 | **Pryx**<br>`io.github.KilianPA/pryx` | Buying advice for the French market: which appliance or electronics to buy, with live prices. | 0.5.0 | [dépôt](https://github.com/KilianPA/pryx-mcp) · [site](https://pryx.fr) |
 | **FlatWay Property Estimator**<br>`io.github.Lfaykus/flatway-estimate` | French property prices, market trends &amp; live listings for any French address. Powered by DVF data. | 1.2.0 | [site](https://flatway.fr) |
@@ -291,13 +316,14 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **BankLabs**<br>`io.github.rodriguem75/banklabs` | French banking comparisons, documented fees, coverage and tariff history. | 1.0.1 | [site](https://www.banklabs.fr) |
 | **CultureLib Discover**<br>`io.github.tbalcinha/culturelib-discover` | French cultural events search with multi-reseller ticket price comparison (theatre, concerts...) | 1.1.0 | [dépôt](https://github.com/tbalcinha/culturelib) |
 | **Secrets.RealEstate**<br>`realestate.secrets/property-intelligence` | French address intelligence: 18.6M sold prices, energy, risk, crime and schools — each sourced. | 1.0.0 |  |
-| **nophi.sh**<br>`sh.nophi/nophish` | Public facts on nophi.sh, phishing-awareness training for French SMBs: catalogue, prices, security. | 1.0.2 | [site](https://nophi.sh/en/ai-agents?utm_source=mcp-registry&utm_medium=directory) |
 | **eglise.shop — Christian bookstore (FR/EN)**<br>`shop.eglise/librairie` | Christian bookstore (French/English): search books, prices in 12 currencies, cart, checkout link. | 1.1.0 | [site](https://eglise.shop/) |
 
-### Autre (127)
+### Autre (134)
 
 | Serveur | Description | Version | Liens |
 |---|---|---|---|
+| **MathApex Worksheets**<br>`app.mathapex/worksheets` | Printable math worksheets for grades 1–4 with answer keys, in German, English, French and Spanish. | 1.0.1 | [site](https://www.mathapex.app/en/worksheets/generator/) |
+| **RaryLib**<br>`app.rarylib/rarylib` | Catalogue culturel en français : films, séries, livres, jeux, musique, animés. Lecture seule. | 1.0.0 | [site](https://rarylib.app) |
 | **Art Déco Belgique**<br>`be.art-deco-belgique/art-deco-belgique` | Verified Art Deco buildings of Belgium and Hauts-de-France: search, nearby, architects, routes. | 1.0.0 | [dépôt](https://github.com/pjtribot-blip/rtdeco-belgique-) · [site](https://art-deco-belgique.be) |
 | **MANA — la vie locale française**<br>`bzh.mana/mana` | Lieux, commerces, artisans et associations en France — 3,7 M de fiches, rangées par code NAF. | 1.0.0 | [site](https://mana.bzh) |
 | **Revoir**<br>`ca.agenceelan/revoir` | French-language meeting records: transcript, shared-screen content, decisions and actions. | 1.0.0 | [site](https://revoir.video/docs/mcp) |
@@ -318,21 +344,25 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **Motif &amp; Moi**<br>`com.motifetmoi/motif-et-moi` | Custom clothing printed in Rennes, France: catalog, quotes, delivery dates, prefilled order links. | 1.0.0 | [site](https://motifetmoi.com/assistant-ia) |
 | **Neoavis**<br>`com.neoavis/constats` | Can an AI agent buy on this French store? 500 stores tested: score, guest checkout, UCP. Free. | 1.3.0 | [site](https://neoavis.com/en/agents) |
 | **Padel Expert Lab**<br>`com.padelexpertlab/raquettes` | Padel racket comparator for France and Belgium, in French: search, brand specs, profile-based picks. | 1.0.1 | [dépôt](https://github.com/FluxCoreGroup/padelexpertlab-mcp) · [site](https://padelexpertlab.com/connecteur-ia/) |
+| **ParleSprint French**<br>`com.parlesprint/french` | Learn French for TCF and TEF Canada: your next lesson, speaking tasks, word review and progress. | 0.4.0 | [site](https://parlesprint.com/connect) |
 | **PV Solaire Énergie — Estimation solaire et devis (France)**<br>`com.pv-solaire-energie/devis-solaire` | Rooftop solar potential, RGE installer search and quote requests. France only, no API key. | 1.1.0 | [site](https://pv-solaire-energie.com/mcp) |
 | `com.resadock/resadock` | Search and book local services in France: real availability, quotes, consented one-tap bookings. | 0.1.0 |  |
+| **Résidences Montréal**<br>`com.residences-montreal/residences` | Montréal private seniors' residences (RPA) from Québec's official register, in French or English. | 1.0.0 |  |
 | **SMS Vert Pro**<br>`com.smsvertpro/mcp` | French SMS platform for AI agents: bulk &amp; scheduled SMS, OTP, delivery reports, replies, STOP list. | 1.1.0 | [site](https://www.smsvertpro.com/serveur-mcp-sms-heberge.php) |
-| **Sooveryn**<br>`com.sooveryn/sooveryn` | AI personas with a lasting, encrypted memory per project, for Claude Code. Hosted in France. | 1.0.1 | [dépôt](https://github.com/PandaProgParis/sooveryn-mcp) · [site](https://www.sooveryn.com/) |
+| **Sooveryn**<br>`com.sooveryn/sooveryn` | AI personas with lasting, encrypted memory, for Claude Code, claude.ai and more. Hosted in France. | 1.1.0 | [dépôt](https://github.com/PandaProgParis/sooveryn-mcp) · [site](https://www.sooveryn.com/) |
 | **Super Webmaster**<br>`com.super-webmaster/seo` | Free SEO and GEO audit of any public website: scores out of 100, fixes ranked by gain. In French. | 1.2.1 | [dépôt](https://github.com/pierrebillard/super-webmaster-mcp) · [site](https://super-webmaster.com/mcp-seo.php) |
+| **Skill Harbor**<br>`com.theskillharbor/skill-harbor` | Search 2,887 Muse skills in English and French. Free, no account, no API key. | 1.0.2 | [site](https://theskillharbor.com) |
+| **TOISE — intelligence foncière**<br>`com.toiseai/toise` | French land intelligence: owners &amp; groups, zoning (PLU), permits, DVF, business plans. | 1.1.0 | [site](https://toiseai.com) |
 | **WeekSpots**<br>`com.weekspots/events` | Upcoming events and outings in Paris and Île-de-France, plus permanent places across France. | 0.2.0 | [site](https://app.weekspots.com/data) |
 | `com.whensport/tour-de-france-2026` | Tour de France 2026 MCP — 21 stages, race phase tracking, stage start times, stage profiles. | 1.0.1 | [site](https://whensport.com/events/tour-de-france-2026/) |
 | **WPFormation : WordPress en français**<br>`com.wpformation/wordpress` | Articles WordPress en français et outils d'analyse de sites, de domaines et de plugins. | 0.5.0 | [site](https://wpformation.com/mcp-wpformation/) |
 | **polls.karbach.digital**<br>`digital.karbach.polls/elections` | Election data for agents: Germany, Spain, France, EU. Polls, forecasts, MPs, energy. Paid via x402. | 1.1.0 | [site](https://polls.karbach.digital/api.html) |
 | **Aztec Energy**<br>`energy.aztec/aztec-energy` | Dimensionnement de pompe à chaleur sur la consommation réelle, estimation des aides (France) | 1.0.0 | [site](https://aztec.energy/assistants-ia) |
-| **Stream Estate**<br>`estate.stream/mcp` | French real estate listings, market data and property alerts (Stream Estate API v2). | 2.0.1 | [site](https://next.docs.stream.estate/en/docs/guides/mcp) |
+| **Stream Estate**<br>`estate.stream/mcp` | Property listings in France and Belgium, and alerts on new matching ones (Stream Estate API v2). | 2.0.2 | [site](https://next.docs.stream.estate/en/docs/guides/mcp) |
 | **Synapze — Financial Intermediary MCP**<br>`eu.synapze/financial-intermediary-mcp` | Connect AI agents to licensed financial intermediaries in France: insurance, credit, wealth. | 1.0.1 | [dépôt](https://github.com/ycdvll/synapze-mcp) · [site](https://mcp.synapze.eu) |
-| **BODACC Creditor Opposition Deadline Sentinel (France)**<br>`fr.amacunia/bodacc-creditor-opposition-deadline` | Was a French business sold or merged (BODACC), and until when can its creditors object? | 0.2.1 | [dépôt](https://github.com/Marcoco27/sentinelle-oppositions-mcp) · [site](https://oppositions.amacunia.fr/) |
-| **France Condominium Syndic Mandate End Sentinel**<br>`fr.amacunia/france-condominium-syndic-mandate-end` | Who is a French condominium's syndic, and when does its mandate end? By condo or by area. | 0.1.2 | [dépôt](https://github.com/Marcoco27/sentinelle-syndic-mcp) · [site](https://syndic.amacunia.fr/) |
-| **France Pesticide Grace Period Sentinel**<br>`fr.amacunia/france-phyto-pesticide-grace-period` | Is a French pesticide (Anses E-Phy) still sellable or usable, and until when? | 0.2.1 | [dépôt](https://github.com/Marcoco27/sentinelle-phyto-mcp) · [site](https://phyto.amacunia.fr/) |
+| **BODACC Creditor Opposition Deadline Sentinel (France)**<br>`fr.amacunia/bodacc-creditor-opposition-deadline` | Was a French business sold or merged (BODACC), and until when can its creditors object? | 0.4.1 | [dépôt](https://github.com/Marcoco27/sentinelle-oppositions-mcp) · [site](https://oppositions.amacunia.fr/) |
+| **France Condominium Syndic Mandate End Sentinel**<br>`fr.amacunia/france-condominium-syndic-mandate-end` | Who is a French condominium's syndic, and when does its mandate end? By condominium or by area. | 0.3.1 | [dépôt](https://github.com/Marcoco27/sentinelle-syndic-mcp) · [site](https://syndic.amacunia.fr/) |
+| **France Pesticide Grace Period Sentinel**<br>`fr.amacunia/france-phyto-pesticide-grace-period` | Is a French pesticide (Anses E-Phy) still sellable or usable, and until when? | 0.4.1 | [dépôt](https://github.com/Marcoco27/sentinelle-phyto-mcp) · [site](https://phyto.amacunia.fr/) |
 | **Apparais**<br>`fr.apparais.www/apparais` | Les commerces locaux que ChatGPT recommande en France, par métier et par ville. Test gratuit. | 1.0.1 | [dépôt](https://github.com/adam-thix/apparais-mcp) · [site](https://www.apparais.fr/mcp-apparais/) |
 | **Boncourant**<br>`fr.boncourant/boncourant` | Audit et choix du tarif d'électricité en France : base \| hp\_hc \| tempo, contrats, puissance et PPA. | 1.6.0 | [dépôt](https://github.com/Amrit-Gill/boncourant-mcp) · [site](https://boncourant.fr/agents) |
 | **CalculPro — outils de calcul du bâtiment**<br>`fr.calculpro/outils-batiment` | Calculs du bâtiment (France) : chute de tension NF C 15-100 et catalogue de 111 outils. | 1.0.0 | [site](https://calculpro.fr/mcp) |
@@ -359,10 +389,10 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **Lobbydex**<br>`fr.lobbydex/lobbydex` | French-speaking FiveM (GTA RP) servers: live players, rankings, events, recruiting, GTA 6 projects. | 1.0.0 | [site](https://lobbydex.fr/developpeurs/) |
 | **Ménage Parfait**<br>`fr.menageparfait/booking` | Quote and book home cleaning in Paris &amp; Île-de-France; request office-cleaning quotes. | 1.2.0 |  |
 | **Mes Frais de Notaire**<br>`fr.mesfraisnotaire/frais-notaire` | Frais de notaire en France : DMTO par département, émoluments réglementés, CSI et débours. | 1.0.0 | [site](https://www.mesfraisnotaire.fr/mcp) |
-| **MesLoisirs — Things to do in France**<br>`fr.mesloisirs/recherche` | Real things to do in France: activities, tours, spas, escape games. Read-only, no sign-in. | 1.0.0 | [site](https://mesloisirs.fr/agents) |
 | **Mission Museaux**<br>`fr.missionmuseaux/annonces` | Lost &amp; found pets in France: stray dogs and cats, photo search, shelter adoptions, breeds, advice. | 1.6.0 | [site](https://missionmuseaux.fr/aide/assistants-ia) |
 | **Mon Batch Cooking**<br>`fr.monbatchcooking/recettes` | Recettes de batch cooking en français : recherche, idées avec vos placards, sessions de cuisine. | 1.0.0 | [site](https://monbatchcooking.fr/assistant-ia) |
 | **MonRdvKine**<br>`fr.monrdvkine/disponibilites` | Trouver un kinesitherapeute en France et ses creneaux en ligne pour une premiere seance. | 1.0.0 | [site](https://monrdvkine.fr) |
+| **NLocale**<br>`fr.nlocale/guide` | Find sourced events, places, restaurants, stays and local guides in Aisne, France. Read-only. | 0.2.0 | [site](https://nlocale.fr) |
 | **OhMyWind**<br>`fr.ohmywind/sailing-planner` | Sailing passage planner for any coast, with high-precision tides on the French Atlantic. | 1.11.0 | [dépôt](https://github.com/qdonnars/ohmywind) · [site](https://ohmywind.fr) |
 | **Pareil au même**<br>`fr.pareil-au-meme/mcp` | Checks a name against French trademarks in force, by spelling and by sound. Free, no account. | 1.1.1 | [dépôt](https://github.com/samuelbelolo/pareil-au-meme-mcp) · [site](https://pareil-au-meme.fr/serveur-mcp) |
 | **Partner Construction**<br>`fr.partner-construction/assurance-decennale` | Indicative decennial insurance quote for French building trades, by a licensed broker. | 1.0.0 | [site](https://www.partner-construction.fr) |
@@ -381,9 +411,10 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **WoodRoar (France)**<br>`fr.woodroar/tronconneuses` | French chainsaw comparison: search, filter and compare the models in WoodRoar's catalogue. | 1.0.0 | [site](https://woodroar.fr/) |
 | **YardRider (France)**<br>`fr.yardrider/tondeuses` | French lawn mower comparison: search, filter and compare the models in YardRider's catalogue. | 1.0.0 | [site](https://yardrider.fr/) |
 | **French family benefits (CNAF corpus)**<br>`io.arxo/cnaf` | French family-benefit models (CNAF corpus) as executable rules with sources; independent demo | 0.1.1 | [dépôt](https://github.com/arxohq/arxo-cnaf) · [site](https://french-benefits.law.arxo.io/) |
+| **Asia Lens**<br>`io.asialens/asialens` | Actualité économique et tech de l'Asie et de l'Océanie, en français. Lecture seule. | 1.0.0 | [site](https://asialens.io) |
 | `io.github.AmauryDvl/serpmantics` | French-first SEO: semantic content guides, scoring, E-E-A-T audits for Google, ChatGPT &amp; Claude. | 0.1.0 | [site](https://app.serpmantics.com/landing/mcp) |
 | `io.github.Arenafriends/valerie-mcp` | French real estate AI: DVF transactions, internet coverage, market insights. Free + €5/month. | 1.0.0 | [dépôt](https://github.com/Arenafriends/valerie-mcp) |
-| **TenderAPI — French &amp; EU public tenders**<br>`io.github.IDNSIDNS/tenderapi-mcp` | MCP server for French (BOAMP) + EU (TED) public procurement data via TenderAPI. | 0.10.2 | [dépôt](https://github.com/IDNSIDNS/tenderapi-mcp) · [site](https://tenderapi.fr/) |
+| **TenderAPI — French &amp; EU public tenders**<br>`io.github.IDNSIDNS/tenderapi-mcp` | MCP server for French (BOAMP) + EU (TED) public procurement data via TenderAPI. | 0.10.3 | [dépôt](https://github.com/IDNSIDNS/tenderapi-mcp) · [site](https://tenderapi.fr/) |
 | `io.github.NormiHQ/normi` | French property market data — 17M+ DVF sales, 22M+ DPE energy ratings, 20M+ building records. | 0.2.7 | [dépôt](https://github.com/NormiHQ/Normi) · [site](https://normi.fr/docs/mcp) |
 | **LeBonFoin**<br>`io.github.POP24/lebonfoin-mcp` | First MCP for the European hemp &amp; CBD market: real French CBD catalogue, producers, FR/EN wiki | 1.7.0 | [dépôt](https://github.com/POP24/lebonfoin-mcp) |
 | **eyeot ERP**<br>`io.github.Termi24/eyeot-erp` | ERP français avec serveur MCP natif : plus de 1 800 actions métier auto-générées via OpenAPI. | 1.1.1 | [dépôt](https://github.com/Termi24/ERP-by-Eyeot-Software) |
@@ -420,7 +451,7 @@ Liste du 16/11/2026 : 329 serveurs, 10 catégories. Fichier complet : [`data/ser
 | **IA-Asso.fr — French Associations Registry**<br>`io.github.wellknownmcp/ia-asso` | Search 1.26M+ active French associations (official RNA registry, 10 tools, premium &amp; RUP filters) | 1.0.0 | [dépôt](https://github.com/wellknownmcp/ia-asso.fr) · [site](https://ia-asso.fr) |
 | **Le Scribe Audio — Transcription Audio &amp; Vidéo (FR)**<br>`io.github.zoulouzaza76/lescribeaudio-mcp` | Official Le Scribe Audio MCP server: search, read, summarize &amp; code French audio transcripts. | 1.0.0 | [dépôt](https://github.com/zoulouzaza76/lescribeaudio-mcp) · [site](https://lescribeaudio.com/integrations-mcp) |
 | **Pylote: Freelance Tech Missions (France)**<br>`io.pylote/mcp` | Search freelance tech missions in France, see which recruiters viewed your profile, update it. | 1.0.0 | [site](https://pylote.io/mcp) |
-| `io.toolzy/toolzy` | Recherche et location d'outils entre particuliers en France via Toolzy. | 0.1.0 | [site](https://www.toolzy.io) |
+| `io.toolzy/toolzy` | Location d'outils en France : recherche ; avec votre compte, réservations, messages et annonces. | 0.2.0 | [dépôt](https://github.com/Toolzy-2/toolzy-mcp) · [site](https://mcp.toolzy.io) |
 | **Zéro problème : calculs du bailleur en France**<br>`me.zeroproble/calculs-bailleur` | Calculs du bailleur en France : IRL, interdiction DPE, plus-value LMNP, dépôt, frais de notaire. | 1.0.1 | [site](https://zeroproble.me/fr/calculateurs) |
 | **AwesomeFor.ms**<br>`ms.awesomefor/forms` | Create, publish and read online forms hosted in France, from your AI assistant. | 1.0.0 | [site](https://awesomefor.ms/mcp-server) |
 | **Lampions — scrutins publics français**<br>`org.lampions/scrutins` | Décompte officiel des scrutins de l'Assemblée nationale, du Sénat et du Parlement européen. | 1.0.0 | [site](https://lampions.org) |

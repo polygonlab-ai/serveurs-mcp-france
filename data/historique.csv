@@ -417,3 +417,75 @@
 2026-11-16;sortie;io.github.Marcoco27/sentinelle-oppositions;autre;absent du registre, plus actif ou sans mot-clé
 2026-11-16;sortie;io.github.Marcoco27/sentinelle-phyto;autre;absent du registre, plus actif ou sans mot-clé
 2026-11-16;sortie;io.github.Marcoco27/sentinelle-syndic;autre;absent du registre, plus actif ou sans mot-clé
+2026-11-23;entree;ai.smartlawyer/legal-graph;juridique_administration;Juridique et administration
+2026-11-23;entree;ai.xomia/xomiadata-apify-actors;entreprises_registres;Entreprises et registres
+2026-11-23;entree;app.mathapex/worksheets;autre;Autre
+2026-11-23;entree;app.rarylib/rarylib;autre;Autre
+2026-11-23;entree;app.serastudio/sera-studio;entreprises_registres;Entreprises et registres
+2026-11-23;nouvelle_version;com.altoviz/mcp;fiscalite_facturation;1.0.10 -> 1.0.11
+2026-11-23;nouvelle_version;com.apprendre-les-echecs-24h/catalogue-echecs-fr;commerce_paiement;1.0.0 -> 1.0.1
+2026-11-23;entree;com.bazaveo/bazaveo;commerce_paiement;Commerce et paiement
+2026-11-23;entree;com.connecteurs-juridiques/connecteurs-juridiques;juridique_administration;Juridique et administration
+2026-11-23;entree;com.facturlint/facturlint;fiscalite_facturation;Fiscalité et facturation
+2026-11-23;entree;com.geteverwear/catalogue;commerce_paiement;Commerce et paiement
+2026-11-23;entree;com.kema-studio/invoice;fiscalite_facturation;Fiscalité et facturation
+2026-11-23;entree;com.papeleoya/translations;commerce_paiement;Commerce et paiement
+2026-11-23;entree;com.parlesprint/french;autre;Autre
+2026-11-23;entree;com.polesocietes/api;entreprises_registres;Entreprises et registres
+2026-11-23;entree;com.ppftec/normbeleg;fiscalite_facturation;Fiscalité et facturation
+2026-11-23;entree;com.residences-montreal/residences;autre;Autre
+2026-11-23;nouvelle_version;com.sooveryn/sooveryn;autre;1.0.1 -> 1.1.0
+2026-11-23;entree;com.theskillharbor/skill-harbor;autre;Autre
+2026-11-23;nouvelle_version;com.toiseai/toise;autre;1.0.0 -> 1.1.0
+2026-11-23;changement_categorie;com.toiseai/toise;autre;geographie_territoire -> autre
+2026-11-23;entree;dev.datasetworks/european-company-registry;entreprises_registres;Entreprises et registres
+2026-11-23;nouvelle_version;dev.invowerk/xrechnung-e-invoice-validator;fiscalite_facturation;1.0.1 -> 1.0.2
+2026-11-23;nouvelle_version;estate.stream/mcp;autre;2.0.1 -> 2.0.2
+2026-11-23;entree;eu.leadsit/leadsit;entreprises_registres;Entreprises et registres
+2026-11-23;nouvelle_version;eu.sirenic/sirenic;entreprises_registres;1.1.0 -> 1.2.1
+2026-11-23;entree;fr.abiu/abiu;commerce_paiement;Commerce et paiement
+2026-11-23;nouvelle_version;fr.amacunia/bodacc-creditor-opposition-deadline;autre;0.2.1 -> 0.4.1
+2026-11-23;nouvelle_version;fr.amacunia/bodacc-insolvency-claim-deadline;entreprises_registres;0.3.0 -> 0.5.1
+2026-11-23;nouvelle_version;fr.amacunia/france-catnat-natural-disaster-claim-deadline;geographie_territoire;0.4.0 -> 0.6.1
+2026-11-23;nouvelle_version;fr.amacunia/france-condominium-syndic-mandate-end;autre;0.1.2 -> 0.3.1
+2026-11-23;nouvelle_version;fr.amacunia/france-phyto-pesticide-grace-period;autre;0.2.1 -> 0.4.1
+2026-11-23;entree;fr.bmse/reperes;emploi_social;Emploi et social
+2026-11-23;nouvelle_version;fr.checkers/entreprises;entreprises_registres;1.0.0 -> 1.1.0
+2026-11-23;nouvelle_version;fr.francestack/tax-payroll;emploi_social;0.8.0 -> 0.10.0
+2026-11-23;entree;fr.lexou/lexou;juridique_administration;Juridique et administration
+2026-11-23;nouvelle_version;fr.librejustice/librejustice;juridique_administration;1.18.0 -> 1.20.0
+2026-11-23;entree;fr.magicprices/mcp;commerce_paiement;Commerce et paiement
+2026-11-23;entree;fr.matchaa/matchaa;emploi_social;Emploi et social
+2026-11-23;nouvelle_version;fr.miramo/mcp;juridique_administration;0.1.1 -> 0.3.0
+2026-11-23;nouvelle_version;fr.mitoyens/pesticides;geographie_territoire;1.1.0 -> 2.0.0
+2026-11-23;entree;fr.nlocale/guide;autre;Autre
+2026-11-23;entree;fr.pagelab/pagelab;juridique_administration;Juridique et administration
+2026-11-23;entree;fr.sealopendata/open-data;geographie_territoire;Géographie et territoire
+2026-11-23;nouvelle_version;fr.souslagelule/complements;commerce_paiement;1.0.0 -> 1.1.0
+2026-11-23;entree;io.asialens/asialens;autre;Autre
+2026-11-23;entree;io.github.64Etienne/cerfaless-inpi;entreprises_registres;Entreprises et registres
+2026-11-23;nouvelle_version;io.github.AnshumanAtrey/welcome-to-the-jungle-jobs-search;emploi_social;1.0.11 -> 1.0.13
+2026-11-23;entree;io.github.DataX-Oracles-MCP/datax-france-eu-mcp;entreprises_registres;Entreprises et registres
+2026-11-23;nouvelle_version;io.github.Geornaden/peppol-xrechnung-facturx-einvoice-mcp;fiscalite_facturation;1.1.0 -> 1.2.0
+2026-11-23;nouvelle_version;io.github.IDNSIDNS/tenderapi-mcp;autre;0.10.2 -> 0.10.3
+2026-11-23;nouvelle_version;io.github.Nutshell2000/agent-data-tools-company-check;entreprises_registres;1.204.0 -> 1.344.0
+2026-11-23;nouvelle_version;io.github.Timi-Duban/gbfs-france;transport_mobilite;0.1.5 -> 0.2.0
+2026-11-23;entree;io.github.codixio/codixio-api-einvoice;fiscalite_facturation;Fiscalité et facturation
+2026-11-23;entree;io.github.jamessvn/registry-pages;entreprises_registres;Entreprises et registres
+2026-11-23;nouvelle_version;io.github.manganate006/openlmnp;fiscalite_facturation;2.0.1 -> 2.2.1
+2026-11-23;nouvelle_version;io.github.muchiny/mcp-legifrance;juridique_administration;1.3.1 -> 1.4.1
+2026-11-23;entree;io.github.pabsamuel/atesen-company-data-mcp;entreprises_registres;Entreprises et registres
+2026-11-23;entree;io.github.pdfik/pdfik-mcp;fiscalite_facturation;Fiscalité et facturation
+2026-11-23;entree;io.github.philippelognoul/belgian-legal-lexicon-nl-fr;juridique_administration;Juridique et administration
+2026-11-23;nouvelle_version;io.github.smart-byte/pdf-to-einvoice;fiscalite_facturation;0.2.0 -> 0.3.2
+2026-11-23;entree;io.github.tresor4k/macalc-mcp;fiscalite_facturation;Fiscalité et facturation
+2026-11-23;entree;io.github.yannabadie/eu-us-opendata-mcp;entreprises_registres;Entreprises et registres
+2026-11-23;nouvelle_version;io.toolzy/toolzy;autre;0.1.0 -> 0.2.0
+2026-11-23;nouvelle_version;re.parcellai/parcellaire;transport_mobilite;1.2.0 -> 1.3.0
+2026-11-23;entree;uk.co.sisoco/uk-companies-house-ownership;entreprises_registres;Entreprises et registres
+2026-11-23;sortie;com.einvoicechecker/einvoice;fiscalite_facturation;absent du registre, plus actif ou sans mot-clé
+2026-11-23;sortie;fr.mesloisirs/recherche;autre;absent du registre, plus actif ou sans mot-clé
+2026-11-23;sortie;fr.pausila/mcp;commerce_paiement;absent du registre, plus actif ou sans mot-clé
+2026-11-23;sortie;fr.synergieloc/immobilier;juridique_administration;absent du registre, plus actif ou sans mot-clé
+2026-11-23;sortie;sh.nophi/nophish;commerce_paiement;absent du registre, plus actif ou sans mot-clé
+2026-11-23;sortie;sh.while/while;emploi_social;absent du registre, plus actif ou sans mot-clé
